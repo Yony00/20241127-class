@@ -17,10 +17,10 @@ st.title("Split-panel Map")
 
 with st.expander("See source code"):
     with st.echo():
-        m = leafmap.Map()
-        m.split_map(
-            left_layer="https://github.com/Yony00/tiff-to-http2/raw/refs/heads/main/image%20(1).tif", right_layer="https://github.com/Yony00/tiff-to-http2/raw/refs/heads/main/tree.tif"
-        )
-        m.add_legend(title="https://github.com/Yony00/tiff-to-http2/raw/refs/heads/main/image%20(1).tif", builtin_legend="https://github.com/Yony00/tiff-to-http2/raw/refs/heads/main/tree.tif")
+        m = leafmap.Map(center=(23.0058,120.2065), zoom=14, height="600px") 
+m.split_map(
+    left_layer="https://github.com/Yony00/tiff-to-http2/raw/refs/heads/main/image%20(1).tif", right_layer="https://github.com/Yony00/tiff-to-http2/raw/refs/heads/main/tree.tif"
+)
+m.add_legend(title="Tree cover")
 
 m.to_streamlit(height=700)
