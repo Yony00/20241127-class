@@ -1,6 +1,8 @@
 import streamlit as st
 from streamlit_folium import st_folium
 import folium
+import geopandas as gpd
+import requests
 
 st.title("Interactive Map - Click to Get Coordinates")
 
