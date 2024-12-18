@@ -4,3 +4,5 @@ leafmap
 owslib
 streamlit
 pydeck
+folium
+streamlit-folium
