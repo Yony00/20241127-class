@@ -50,5 +50,23 @@ if clicked_point and clicked_point.get("last_clicked"):
         st.write(f"Distance: {nearest_restaurant['distance']:.2f} meters")
     else:
         st.error("Failed to download GeoJSON file from GitHub.")
+    
+    # 繪製所有速食餐廳的點位
+    for _, restaurant in gdf.iterrows():
+        folium.Marker(
+            location=[restaurant.geometry.y, restaurant.geometry.x], 
+            popup=f"{restaurant['name']}<br>{restaurant['address']}", 
+            icon=folium.Icon(color='blue')
+        ).add_to(m)
+
+    # 繪製最近的餐廳標記
+    folium.Marker(
+        location=[nearest_restaurant.geometry.y, nearest_restaurant.geometry.x], 
+        popup=f"Nearest: {nearest_restaurant['name']}<br>{nearest_restaurant['address']}",
+        icon=folium.Icon(color='red')
+    ).add_to(m)
 else:
     st.info("Click on the map to get the coordinates.")
+
+# 顯示地圖
+st_folium(m, width=700)
