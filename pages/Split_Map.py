@@ -5,7 +5,7 @@ import folium
 st.title("Interactive Map - Click to Get Coordinates")
 
 # 初始化地圖
-m = folium.Map(location=[23, 120], zoom_start=8)
+m = folium.Map(location=[23, 122], zoom_start=8)
 
 # 在地圖上點擊時，會更新並顯示座標
 clicked_point = st_folium(m, key="folium_map")
