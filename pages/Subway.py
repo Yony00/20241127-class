@@ -7,7 +7,7 @@ import json
 st.title("Fast Food Restaurants JSON Upload and Display on Map")
 
 # 上傳 JSON 檔案
-uploaded_file = st.file_uploader("Upload your fast food restaurants JSON file", type=["json"])
+uploaded_file = st.file_uploader("https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/output.geojson", type=["geojson"])
 
 if uploaded_file is not None:
     # 讀取並解析 JSON 檔案
