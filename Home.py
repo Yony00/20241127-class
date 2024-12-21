@@ -63,7 +63,7 @@ if geo_dfs:
         ).add_to(m)
 
     # 顯示放大後的地圖
-    st_folium(m, width=900, height=600)  # 增加 height 來放大地圖
+    st_folium(m, width=900, height=800)  # 增加 height 來放大地圖
 
     # 顯示合併後的餐廳列表
     if 'name' in combined_gdf.columns:
