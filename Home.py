@@ -11,9 +11,9 @@ st.title("速食餐廳地圖展示")
 
 # 定義速食餐廳 GeoJSON 檔案的 URL
 geojson_urls = {
-    "麥當勞": "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/SB10.geojson",
+    "Subway": "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/SB10.geojson",
     "肯德基": "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/KK10.geojson",
-    "Subway": "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/MM10.geojson"
+    "麥當勞": "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/MM10.geojson"
 }
 
 # 下載 GeoJSON 資料
