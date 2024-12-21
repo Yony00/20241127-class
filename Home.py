@@ -2,13 +2,12 @@ import streamlit as st
 import folium
 import geopandas as gpd
 import requests
-import pandas as pd
 from streamlit_folium import st_folium
 
 st.set_page_config(layout="wide")
 
 # 設定頁面標題
-st.title("速食餐廳熱區圖")
+st.title("速食餐廳地圖展示")
 
 # 定義速食餐廳 GeoJSON 檔案的 URL
 geojson_urls = {
