@@ -31,8 +31,8 @@ for url in geojson_urls:
 if geo_dfs:
     combined_gdf = gpd.GeoDataFrame(pd.concat(geo_dfs, ignore_index=True))  # 使用 pd.concat 合併 GeoDataFrame
 
-    # 初始化地圖，將地圖中心設置為指定位置
-    m = folium.Map(location=[23.6, 121], zoom_start=8)  # 設置初始位置與縮放級別
+    # 初始化地圖，將地圖中心設置為指定的座標
+    m = folium.Map(location=[23.6, 121], zoom_start=8)  # 地圖尺度設置為 (23.6, 121)
 
     # 自定義每個來源的圖標
     icons = [
@@ -65,5 +65,9 @@ if geo_dfs:
     # 顯示地圖
     st_folium(m, width=700)
 
+    # 顯示合併後的餐廳列表
+    if 'name' in combined_gdf.columns:
+        st.write("Combined Restaurant Locations:")
+        st.write(combined_gdf[['name', 'number', 'address', 'hours']])
 else:
     st.error("No valid GeoJSON data could be loaded.")
