@@ -17,6 +17,9 @@ if response.status_code == 200:
     # 將下載的資料轉換為 GeoJSON 格式
     gdf = gpd.read_file(response.text)
 
+    # 檢查 GeoDataFrame 中的欄位名稱
+    st.write("Columns in GeoDataFrame:", gdf.columns)
+
     # 初始化地圖，將地圖中心設置為第一個餐廳的位置
     first_location = gdf.geometry.iloc[0].coords[0]
     m = folium.Map(location=[first_location[1], first_location[0]], zoom_start=12)
@@ -27,8 +30,11 @@ if response.status_code == 200:
     # 顯示地圖
     st_folium(m, width=700)
 
-    # 顯示餐廳列表
-    st.write("Restaurant Locations:")
-    st.write(gdf[['name', 'address']])
+    # 顯示餐廳列表（根據實際欄位名稱）
+    if 'name' in gdf.columns and 'address' in gdf.columns:
+        st.write("Restaurant Locations:")
+        st.write(gdf[['name', 'address']])
+    else:
+        st.write("Columns 'name' and 'address' not found in the GeoJSON data.")
 else:
     st.error("Failed to download GeoJSON file from GitHub.")
