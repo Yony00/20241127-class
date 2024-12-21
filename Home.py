@@ -12,11 +12,17 @@ st.title("發現鄰近美味！速食餐廳互動式地圖")
 
 # 定義 GeoJSON 檔案的 URL
 geojson_urls = [
-    "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/SB10.geojson",  # 第一間速食餐廳
-    "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/KK10.geojson",  # 第二間速食餐廳
-    "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/MM10.geojson"   # 第三間速食餐廳
+    ("SB10", "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/SB10.geojson"),  # 麥當勞
+    ("KK10", "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/KK10.geojson"),  # 肯德基
+    ("MM10", "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/MM10.geojson")   # Subway
 ]
 
+geo_dfs = []
+restaurant_names = {  # 地圖上的餐廳名稱映射
+    "SB10": "麥當勞",
+    "KK10": "肯德基",
+    "MM10": "Subway"
+}
 geo_dfs = []
 
 # 下載和讀取每個 GeoJSON 檔案
