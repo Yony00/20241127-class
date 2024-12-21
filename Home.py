@@ -27,7 +27,7 @@ for url in geojson_urls:
 
 # 合併所有 GeoDataFrame
 if geo_dfs:
-    combined_gdf = gpd.GeoDataFrame(pd.concat(geo_dfs, ignore_index=True))
+    combined_gdf = gpd.GeoDataFrame(pd.concat(geo_dfs, ignore_index=True))  # 使用 pd.concat 合併 GeoDataFrame
 
     # 檢查合併後的欄位名稱
     st.write("Columns in Combined GeoDataFrame:", combined_gdf.columns)
@@ -36,18 +36,20 @@ if geo_dfs:
     first_location = combined_gdf.geometry.iloc[0].coords[0]
     m = folium.Map(location=[first_location[1], first_location[0]], zoom_start=12)
 
-    # 將速食餐廳位置加入地圖，根據來源使用不同圖標
+    # 自定義每個來源的圖標
     icons = [
         "https://cdn-icons-png.flaticon.com/512/1046/1046784.png",  # 第一個來源的圖標
         "https://cdn-icons-png.flaticon.com/512/1046/1046846.png",  # 第二個來源的圖標
         "https://cdn-icons-png.flaticon.com/512/1046/1046825.png"   # 第三個來源的圖標
     ]
 
+    # 根據不同來源選擇圖標
     for idx, row in combined_gdf.iterrows():
         lat, lon = row.geometry.y, row.geometry.x
-        source_index = row.get("source_index", 0)  # 用於區分資料來源
+        source_index = row.get("source_index", idx % len(geojson_urls))  # 用來區分資料來源
         icon_url = icons[source_index % len(icons)]  # 根據來源選擇圖標
         custom_icon = folium.CustomIcon(icon_url, icon_size=(30, 30))
+        
         folium.Marker(
             location=[lat, lon],
             popup=f"Name: {row['name'] if 'name' in row else 'Unknown'}",
