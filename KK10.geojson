@@ -1,0 +1,2693 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.531415,
+          25.043904
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u5317\u516b\u5fb7\u5e97",
+        "address": "\u53f0\u5317\u5e02\u4e2d\u6b63\u5340\u516b\u5fb7\u8def\u4e00\u6bb564\u865f",
+        "number": "02-2358-2227",
+        "hours": "\u6bcf\u65e5 10:00 ~ 22:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.516329,
+          25.03223
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u5317\u5357\u660c\u5e97",
+        "address": "\u53f0\u5317\u5e02\u4e2d\u6b63\u5340\u5357\u660c\u8def\u4e00\u6bb512\u865f",
+        "number": "02-2369-3828",
+        "hours": "\u6bcf\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.516824,
+          25.05084
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u5317\u627f\u5fb7\u5e97",
+        "address": "\u53f0\u5317\u5e02\u5927\u540c\u5340\u627f\u5fb7\u8def\u4e00\u6bb538\u865f",
+        "number": "02-2555-5322",
+        "hours": "\u6bcf\u65e5 08:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.542864,
+          25.04554
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u5317\u4e2d\u5d19\u5e97\r\n(\u4e2d\u5d19\u5927\u6f64\u767cB1)\t",
+        "address": "\u53f0\u5317\u5e02\u4e2d\u5c71\u5340\u516b\u5fb7\u8def\u4e8c\u6bb5306\u865fB1\t",
+        "number": "02-8772-5931",
+        "hours": "\u6bcf\u65e5 10:00 ~ 22:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.525692,
+          25.051867
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u5317\u5357\u4eac\u6771\u4e09\u5e97",
+        "address": "\u53f0\u5317\u5e02\u4e2d\u5c71\u5340\u5357\u4eac\u6771\u8def\u4e00\u6bb588\u865f",
+        "number": "02-2563-5055",
+        "hours": "\u6bcf\u65e5 10:30 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.543598,
+          25.051607
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u5317\u4e2d\u5c71\u5e97",
+        "address": "        \u53f0\u5317\u5e02\u4e2d\u5c71\u5340\u5357\u4eac\u6771\u8def\u4e09\u6bb5222\u865f\n(\u5144\u5f1f\u98ef\u5e97\u659c\u5c0d\u9762)",
+        "number": "02-2771-5135",
+        "hours": "\u6bcf\u65e5 07:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.521672,
+          25.057887
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u5317\u96d9\u9023\u5e97",
+        "address": "\t\u53f0\u5317\u5e02\u4e2d\u5c71\u5340\u6c11\u751f\u897f\u8def9\u865f",
+        "number": "02-2562-1959",
+        "hours": "\u6bcf\u65e5 08:00 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.563115,
+          25.051238
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u5317\u5357\u4eac\u6771\u4e8c\u5e97     \n(\u5357\u4eac\u4e09\u6c11\u7ad9\u65c1)",
+        "address": "   \u53f0\u5317\u5e02\u677e\u5c71\u5340\u5357\u4eac\u6771\u8def\u4e94\u6bb5164\u865f",
+        "number": "02-2763-8368",
+        "hours": "\u6bcf\u65e5 08:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.50031,
+          25.025435
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u5317\u842c\u5927\u5e97",
+        "address": "\u53f0\u5317\u5e02\u842c\u83ef\u5340\u842c\u5927\u8def286\u865f",
+        "number": "02-2339-6627",
+        "hours": "\u6bcf\u65e5 10:30 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.557661,
+          25.034045
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u5317\u5149\u5fa9\u5e97",
+        "address": "\u53f0\u5317\u5e02\u4fe1\u7fa9\u5340\u5149\u5fa9\u5357\u8def465\u865f1\u6a13",
+        "number": "02-2722-6963",
+        "hours": "\u6bcf\u65e5 11:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.573884,
+          25.041103
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u5317\u6c38\u6625\u5e97",
+        "address": "\u53f0\u5317\u5e02\u4fe1\u7fa9\u5340\u5fe0\u5b5d\u6771\u8def\u4e94\u6bb5297\u865fB1\n(\u6c38\u6625\u6377\u904b\u7ad9\u51fa\u53e3)",
+        "number": "02-2767-5898",
+        "hours": "\u5e73\u65e5 10:00 ~ 23:00\n\u5047\u65e5 09:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.563804,
+          25.027794
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u5317\u838a\u656c\u5e97",
+        "address": "\u53f0\u5317\u5e02\u4fe1\u7fa9\u5340\u838a\u656c\u8def336\u865f1\u6a13",
+        "number": "02-2725-1979",
+        "hours": "\u5e73\u65e5 10:00 ~ 23:00\n\u5047\u65e5 09:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.528265,
+          25.115675
+        ]
+      },
+      "properties": {
+        "name": "\u5929\u6bcd\u4e2d\u5c71\u5e97",
+        "address": "\u53f0\u5317\u5e02\u58eb\u6797\u5340\u4e2d\u5c71\u5317\u8def\u516d\u6bb5748\u3001750\u865f\n(\u7f8e\u570b\u5b78\u6821)",
+        "number": "02-2871-4607",
+        "hours": "\u5e73\u65e5 10:00 ~ 22:00\n\u5047\u65e5 09:00 ~ 22:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.522301,
+          25.094337
+        ]
+      },
+      "properties": {
+        "name": "\u58eb\u6797\u6587\u660c\u5e97",
+        "address": "\u53f0\u5317\u5e02\u58eb\u6797\u5340\u4e2d\u6b63\u8def351\u865f",
+        "number": "02-2882-3856",
+        "hours": "\u6bcf\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.525952,
+          25.087288
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u5317\u58eb\u6797\u5e97",
+        "address": "\u53f0\u5317\u5e02\u58eb\u6797\u5340\u6587\u6797\u8def88\u865f\n(\u528d\u6f6d\u6377\u904b\u7ad91\u865f)",
+        "number": "02-2881-1323",
+        "hours": "\u6bcf\u65e5 08:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.504158,
+          25.136521
+        ]
+      },
+      "properties": {
+        "name": "\u5317\u6295\u5149\u660e\u5e97",
+        "address": "\u53f0\u5317\u5e02\u5317\u6295\u5340\u5149\u660e\u8def225\u865f\n(\u65b0\u5317\u6295\u6377\u904b\u7ad9)",
+        "number": "02-2898-5078",
+        "hours": "\u5e73\u65e5 10:00 ~ 24:00\n\u5047\u65e5 09:00 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.564871,
+          25.082377
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u5317\u5167\u6e56\u5e97\n(\u897f\u6e56\u6377\u904b\u7ad9)",
+        "address": "\u53f0\u5317\u5e02\u5167\u6e56\u5340\u5167\u6e56\u8def\u4e00\u6bb5230\u865f",
+        "number": "02-8751-6361",
+        "hours": "\u6bcf\u65e5 07:00 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.616823,
+          25.067953
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u5317\u6771\u6e56\u4e09\u5e97",
+        "address": "\u53f0\u5317\u5e02\u5167\u6e56\u5340\u6771\u6e56\u8def138\u865f",
+        "number": "02-2631-0167",
+        "hours": "\u6bcf\u65e5 08:00 ~ 22:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.575091,
+          25.076131
+        ]
+      },
+      "properties": {
+        "name": "\u5167\u6e56\u745e\u5149\u5e97",
+        "address": "\u53f0\u5317\u5e02\u5167\u6e56\u5340\u745e\u5149\u8def292\u865f",
+        "number": "02-2797-0368",
+        "hours": "\u6bcf\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.61381,
+          25.055799
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u5317\u5357\u6e2f\u5e97",
+        "address": "\u53f0\u5317\u5e02\u5357\u6e2f\u5340\u4e09\u91cd\u8def11\u865f1-2\u6a13",
+        "number": "02-2786-3268",
+        "hours": "\u5e73\u65e5 10:00 ~ 22:00\n\u5047\u65e5 09:00 ~ 22:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.566805,
+          24.98849
+        ]
+      },
+      "properties": {
+        "name": "\u6587\u5c71\u6728\u67f5\u5e97",
+        "address": "\u53f0\u5317\u5e02\u6587\u5c71\u5340\u6728\u67f5\u8def\u4e09\u6bb582\u865f\n(\u8fd1\u6587\u5c71\u5340\u884c\u653f\u4e2d\u5fc3)",
+        "number": "02-2936-3525",
+        "hours": "\u6bcf\u65e5 10:00 ~ 22:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.554893,
+          25.00089
+        ]
+      },
+      "properties": {
+        "name": "\u6587\u5c71\u8208\u9686\u5e97",
+        "address": "\u53f0\u5317\u5e02\u6587\u5c71\u5340\u8208\u9686\u8def\u4e09\u6bb59\u865f\n(\u8fd1\u842c\u82b3\u91ab\u9662\u6377\u904b\u7ad9)",
+        "number": "02-2239-6232",
+        "hours": "\u5e73\u65e5 10:00 ~ 23:00\n\u5047\u65e5 09:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.751143,
+          25.127948
+        ]
+      },
+      "properties": {
+        "name": "\u57fa\u9686\u4ec1\u4e00\u5e97",
+        "address": "\u57fa\u9686\u5e02\u4ec1\u611b\u5340\u5289\u9298\u50b3\u8def1\u865f\n(\u7530\u907c\u6cb3\u9280\u86c7\u6a4b\u524d)",
+        "number": "02-2426-3391",
+        "hours": "\u4e94\u516d 08:00 ~ 24:00\n\u5176\u4ed6 08:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.740163,
+          25.129914
+        ]
+      },
+      "properties": {
+        "name": "\u57fa\u9686\u5fe0\u4e8c\u5e97",
+        "address": "\u57fa\u9686\u5e02\u4ec1\u611b\u5340\u5fe0\u4e8c\u8def13\u865f\n(\u57fa\u9686\u6e2f\u6d77\u6d0b\u5ee3\u5834\u524d)",
+        "number": "02-2422-3356",
+        "hours": "\u5e73\u65e5 10:00 ~ 23:00\n\u5047\u65e5 09:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.461158,
+          25.009691
+        ]
+      },
+      "properties": {
+        "name": "\u677f\u6a4b\u4e2d\u5c71\u4e8c\u5e97",
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u4e2d\u5c71\u8def\u4e00\u6bb565\u865f\n(\u8fd1\u5e9c\u4e2d\u6377\u904b\u7ad9)",
+        "number": "02-2951-3899",
+        "hours": "\u6bcf\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.460382,
+          25.002056
+        ]
+      },
+      "properties": {
+        "name": "\u677f\u6a4b\u5fe0\u5b5d\u5e97",
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u5fe0\u5b5d\u8def21\u865f",
+        "number": "02-2958-6112",
+        "hours": "\u6bcf\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.477336,
+          25.017596
+        ]
+      },
+      "properties": {
+        "name": "\u677f\u6a4b\u57d4\u5898\u5e97",
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u4e2d\u5c71\u8def\u4e8c\u6bb5249\u865f\n(\u8fd1\u5149\u4ec1\u4e2d\u5b78)",
+        "number": "02-2959-4138",
+        "hours": "\u5e73\u65e5 10:00 ~ 23:00\n\u5047\u65e5 09:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.467417,
+          25.022787
+        ]
+      },
+      "properties": {
+        "name": "\u677f\u6a4b\u65b0\u57d4\u5e97",
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6587\u5316\u8def\u4e00\u6bb5421\u5df72\u865f1\u6a13\n(\u65b0\u57d4\u6377\u904b\u7ad91\u865f\u51fa\u53e3)",
+        "number": "02-2250-7558",
+        "hours": "\u6bcf\u65e5 08:00 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.473084,
+          25.029649
+        ]
+      },
+      "properties": {
+        "name": "\u677f\u6a4b\u96d9\u5341\u5e97",
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u96d9\u5341\u8def2\u6bb5170\u865f",
+        "number": "02-2256-5226",
+        "hours": "\u6bcf\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.630865,
+          25.066282
+        ]
+      },
+      "properties": {
+        "name": "\u6c50\u6b62\u4e2d\u8208\u5e97",
+        "address": "\u65b0\u5317\u5e02\u6c50\u6b62\u5340\u4e2d\u8208\u8def169\u865f",
+        "number": "02-2693-1153",
+        "hours": "\u5e73\u65e5 10:00 ~ 23:00\n\u5047\u65e5 09:30 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.657612,
+          25.067354
+        ]
+      },
+      "properties": {
+        "name": "\u6c50\u6b62\u5927\u540c\u5e97",
+        "address": "\u65b0\u5317\u5e02\u6c50\u6b62\u5340\u5927\u540c\u8def\u4e8c\u6bb5383\u865f\n(\u6c50\u6b62\u570b\u4e2d\u5c0d\u9762)",
+        "number": "02-2642-8368",
+        "hours": "\u6bcf\u65e5 10:00 ~ 22:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.538212,
+          24.959098
+        ]
+      },
+      "properties": {
+        "name": "\u65b0\u5e97\u5149\u660e\u5e97",
+        "address": "\u65b0\u5317\u5e02\u65b0\u5e97\u5340\u5149\u660e\u88571\u4e4b1\u865f1-5\u6a13\n(\u8fd1\u65b0\u5e97\u6377\u904b\u7ad9)",
+        "number": "02-2917-7186",
+        "hours": "\u6bcf\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.514868,
+          24.963774
+        ]
+      },
+      "properties": {
+        "name": "\u65b0\u5e97\u5b89\u5eb7\u5e97",
+        "address": "\u65b0\u5317\u5e02\u65b0\u5e97\u5340\u5b89\u5eb7\u8def\u4e8c\u6bb560\u865f",
+        "number": "02-2211-1858",
+        "hours": "\u6bcf\u65e5 10:00 ~ 22:30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.542772,
+          24.973338
+        ]
+      },
+      "properties": {
+        "name": "\u65b0\u5e97\u5317\u65b0\u5e97",
+        "address": "\u65b0\u5317\u5e02\u65b0\u5e97\u5340\u5317\u65b0\u8def\u4e8c\u6bb561\u865f\n(\u8fd1\u4e03\u5f35\u6377\u904b\u7ad9)",
+        "number": "02-2918-9953",
+        "hours": "\u6bcf\u65e5 07:00 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.509743,
+          25.009203
+        ]
+      },
+      "properties": {
+        "name": "\u6c38\u548c\u4e2d\u5c71\u5e97",
+        "address": "\u65b0\u5317\u5e02\u6c38\u548c\u5340\u4e2d\u5c71\u8def\u4e00\u6bb5173\u3001175\u865f\n(\u6a02\u83ef\u591c\u5e02\u65c1)",
+        "number": "02-2927-1556",
+        "hours": "\u6bcf\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.51725,
+          24.99901
+        ]
+      },
+      "properties": {
+        "name": "\u6c38\u548c\u4e2d\u6b63\u5e97",
+        "address": "\u65b0\u5317\u5e02\u6c38\u548c\u5340\u4e2d\u6b63\u8def294\u865f",
+        "number": "02-8668-6971",
+        "hours": "\u6bcf\u65e5 07:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.498837,
+          25.002886
+        ]
+      },
+      "properties": {
+        "name": "\u4e2d\u548c\u798f\u7965\u5e97",
+        "address": "\u65b0\u5317\u5e02\u4e2d\u548c\u5340\u4e2d\u5c71\u8def2\u6bb5228-1\u865f\n(\u4e2d\u548c\u5927\u6f64\u767c)",
+        "number": "02-8241-1603",
+        "hours": "\u6bcf\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.481443,
+          25.000668
+        ]
+      },
+      "properties": {
+        "name": "\u4e2d\u548c\u54e1\u5c71\u5e97",
+        "address": "\u65b0\u5317\u5e02\u4e2d\u548c\u5340\u54e1\u5c71\u8def202\u865f",
+        "number": "02-2225-3293",
+        "hours": "\u6bcf\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.510107,
+          24.989104
+        ]
+      },
+      "properties": {
+        "name": "\u4e2d\u548c\u8208\u5357\u5e97",
+        "address": "\u65b0\u5317\u5e02\u4e2d\u548c\u5340\u8208\u5357\u8def\u4e00\u6bb579\u865f\n(\u8208\u5357\u591c\u5e02\u65c1)",
+        "number": "02-2948-7163",
+        "hours": "\u6bcf\u65e5 08:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.441835,
+          24.976306
+        ]
+      },
+      "properties": {
+        "name": "\u571f\u57ce\u4e2d\u592e\u5e97",
+        "address": "\u65b0\u5317\u5e02\u571f\u57ce\u5340\u4e2d\u592e\u8def\u4e8c\u6bb5174\u865f",
+        "number": "02-2260-6887",
+        "hours": "\u6bcf\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.463977,
+          24.986034
+        ]
+      },
+      "properties": {
+        "name": "\u571f\u57ce\u91d1\u57ce\u5e97",
+        "address": "\u65b0\u5317\u5e02\u571f\u57ce\u5340\u91d1\u57ce\u8def\u4e8c\u6bb5269-271\u865f\n(\u571f\u57ce\u770b\u5b88\u6240\u65c1)",
+        "number": "02-2273-0239",
+        "hours": "\u5e73\u65e5 10:00 ~ 23:00\n\u5047\u65e5 09:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.374282,
+          24.944733
+        ]
+      },
+      "properties": {
+        "name": "\u4e09\u5cfd\u5317\u5927\u5e97",
+        "address": "\u65b0\u5317\u5e02\u4e09\u5cfd\u5340\u5927\u5b78\u8def150\u865f\n(\u53f0\u5317\u5927\u5b78)",
+        "number": "02-2672-8923",
+        "hours": "\u5e73\u65e5 10:00 ~ 23:00\n\u5047\u65e5 09:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.423752,
+          24.991811
+        ]
+      },
+      "properties": {
+        "name": "\u6a39\u6797\u4e2d\u5c71\u5e97",
+        "address": "\u65b0\u5317\u5e02\u6a39\u6797\u5340\u4e2d\u5c71\u8def\u4e00\u6bb567\u865f\n(\u6a39\u6797\u706b\u8eca\u7ad9\u5f8c\u7ad9\u51fa\u53e3)",
+        "number": "02-2684-1331",
+        "hours": "\u5e73\u65e5 10:00 ~ 24:00\n\u5047\u65e5 09:00 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.350568,
+          24.953547
+        ]
+      },
+      "properties": {
+        "name": "\u65b0\u5317\u9daf\u6b4c\u5e97",
+        "address": "\u65b0\u5317\u5e02\u9daf\u6b4c\u5340\u5efa\u570b\u8def153\u865f",
+        "number": "02-2670-6618",
+        "hours": "\u6bcf\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.482275,
+          25.079315
+        ]
+      },
+      "properties": {
+        "name": "\u4e09\u91cd\u4e09\u548c\u5e97",
+        "address": "\u65b0\u5317\u5e02\u4e09\u91cd\u5340\u4e09\u548c\u8def\u56db\u6bb5193-195\u865f\n(\u5f90\u532f\u6377\u904b\u7ad9)",
+        "number": "02-2286-1293",
+        "hours": "\u6bcf\u65e5 07:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.496703,
+          25.066709
+        ]
+      },
+      "properties": {
+        "name": "\u4e09\u91cd\u6b63\u7fa9\u5e97",
+        "address": "\u65b0\u5317\u5e02\u4e09\u91cd\u5340\u6b63\u7fa9\u5317\u8def139-141\u865f",
+        "number": "02-2988-7987",
+        "hours": "\u5e73\u65e5 10:00 ~ 24:00\n\u5047\u65e5 09:00 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.499581,
+          25.062973
+        ]
+      },
+      "properties": {
+        "name": "\u4e09\u91cd\u91cd\u65b0\u4e8c\u5e97",
+        "address": "\u65b0\u5317\u5e02\u4e09\u91cd\u5340\u91cd\u65b0\u8def\u4e8c\u6bb51-1\u865f",
+        "number": "02-8982-8168",
+        "hours": "\u5e73\u65e5 10:00 ~ 24:00\n\u5047\u65e5 09:00 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.433306,
+          25.032458
+        ]
+      },
+      "properties": {
+        "name": "\u65b0\u838a\u8f14\u5927\u5e97",
+        "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u4e2d\u6b63\u8def516-3\u865f\n(\u8fd1\u8f14\u4ec1\u5927\u5b78)",
+        "number": "02-2901-2059",
+        "hours": "\u6bcf\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.452603,
+          25.044669
+        ]
+      },
+      "properties": {
+        "name": "\u65b0\u838a\u4e2d\u6e2f\u5e97",
+        "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u4e2d\u6e2f\u8def311-313\u865f",
+        "number": "02-2994-8433",
+        "hours": "\u9031\u4e94 10:00 ~ 24:00\n\u9031\u516d 09:00 ~ 24:00\n\u9031\u65e5 09:00 ~ 23:00\n\u5176\u4ed6 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.447174,
+          25.048992
+        ]
+      },
+      "properties": {
+        "name": "\u65b0\u838a\u5e78\u798f\u5e97",
+        "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u5e78\u798f\u8def763-6\u865f",
+        "number": "02-2991-0791",
+        "hours": "\u5e73\u65e5 10:00 ~ 23:00\n\u5047\u65e5 09:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.431292,
+          25.059118
+        ]
+      },
+      "properties": {
+        "name": "\u6cf0\u5c71\u660e\u5fd7\u5e97",
+        "address": "\u65b0\u5317\u5e02\u6cf0\u5c71\u5340\u660e\u5fd7\u8def\u4e00\u6bb5326\u865f",
+        "number": "02-2296-0659",
+        "hours": "\u5e73\u65e5 10:30 ~ 23:00\n\u5047\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.371836,
+          25.069831
+        ]
+      },
+      "properties": {
+        "name": "\u6797\u53e3\u6587\u5316\u5e97",
+        "address": "\u65b0\u5317\u5e02\u6797\u53e3\u5340\u6587\u5316\u4e00\u8def\u4e00\u6bb578\u865f",
+        "number": "02-2608-1158",
+        "hours": "\u6bcf\u65e5 07:00 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.438481,
+          25.084639
+        ]
+      },
+      "properties": {
+        "name": "\u4e94\u80a1\u6210\u6cf0\u5e97",
+        "address": "\u65b0\u5317\u5e02\u4e94\u80a1\u5340\u6210\u6cf0\u8def\u4e8c\u6bb5113\u865f",
+        "number": "02-2292-0365",
+        "hours": "\u6bcf\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.443115,
+          25.177466
+        ]
+      },
+      "properties": {
+        "name": "\u6de1\u6c34\u4e2d\u5c71\u5e97",
+        "address": "\u65b0\u5317\u5e02\u6de1\u6c34\u5340\u4e2d\u5c71\u5317\u8def\u4e00\u6bb5151\u865f\n(\u6c34\u7893\u505c\u8eca\u5834\u65c1)",
+        "number": "02-2626-2529",
+        "hours": "\u6bcf\u65e5 07:00 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.44444,
+          25.169635
+        ]
+      },
+      "properties": {
+        "name": "\u6de1\u6c34\u4e2d\u5c71\u4e8c\u5e97",
+        "address": "\u65b0\u5317\u5e02\u6de1\u6c34\u5340\u4e2d\u5c71\u8def24\u865f-26\u865f",
+        "number": "02-2620-6385",
+        "hours": "\u6bcf\u65e510:00-23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.460043,
+          25.140396
+        ]
+      },
+      "properties": {
+        "name": "\u6de1\u6c34\u7af9\u570d\u5e97",
+        "address": "\u65b0\u5317\u5e02\u6de1\u6c34\u5340\u6c11\u6b0a\u8def41\u865f\n(\u7af9\u570d\u6377\u904b\u7ad9)",
+        "number": "02-8809-5078",
+        "hours": "\u4e94\u516d 08:00 ~ 24:00\n\u5176\u4ed6 08:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.754375,
+          24.754628
+        ]
+      },
+      "properties": {
+        "name": "\u5b9c\u862d\u820a\u57ce\u5e97",
+        "address": "\u5b9c\u862d\u7e23\u5b9c\u862d\u5e02\u820a\u57ce\u5357\u8def2-3\u865f\n(\u4e2d\u5c71\u516c\u5712\u524d)",
+        "number": "03-933-1708",
+        "hours": "\u5e73\u65e5 10:00 ~ 23:00\n\u9031\u516d 09:00 ~ 24:00\n\u9031\u65e5 09:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.768986,
+          24.679573
+        ]
+      },
+      "properties": {
+        "name": "\u7f85\u6771\u8208\u6771\u5e97",
+        "address": "\u5b9c\u862d\u7e23\u7f85\u6771\u93ae\u8208\u6771\u8def90\u865f1-2\u6a13\n(\u7f85\u6771\u93ae\u516c\u6240)",
+        "number": "03-955-2535",
+        "hours": "\u6bcf\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.772012,
+          24.827457
+        ]
+      },
+      "properties": {
+        "name": "\u5b9c\u862d\u7901\u6eaa\u5e97",
+        "address": "\u5b9c\u862d\u7e23\u7901\u6eaa\u9109\u7901\u6eaa\u8def\u4e94\u6bb567\u865f1\u6a13",
+        "number": "03-988-0958",
+        "hours": "\u6bcf\u65e5 11:00 ~ 22:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.010781,
+          24.786751
+        ]
+      },
+      "properties": {
+        "name": "\u65b0\u7af9\u5149\u5fa9\u5e97",
+        "address": "\u65b0\u7af9\u5e02\u6771\u5340\u5149\u5fa9\u8def\u4e00\u6bb5536\u865f\n(\u5bf6\u96c5\u65c1)",
+        "number": "03-564-2025",
+        "hours": "\u6bcf\u65e5 10:30 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.998155,
+          24.795976
+        ]
+      },
+      "properties": {
+        "name": "\u65b0\u7af9\u6e05\u5927\u5e97",
+        "address": "\u65b0\u7af9\u5e02\u6771\u5340\u5149\u5fa9\u8def\u4e8c\u6bb5334\u865f",
+        "number": "03-571-7868",
+        "hours": "\u6bcf\u65e5 10:00 ~ 22:30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.984361,
+          24.805402
+        ]
+      },
+      "properties": {
+        "name": "\u65b0\u7af9\u4e9e\u592a\u5e97",
+        "address": "\u65b0\u7af9\u5e02\u6771\u5340\u5fe0\u5b5d\u8def300\u865f\n(\u5927\u6f64\u767c)",
+        "number": "03-562-8337",
+        "hours": "\u6bcf\u65e5 11:00 ~ 22:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.974581,
+          24.81347
+        ]
+      },
+      "properties": {
+        "name": "\u65b0\u7af9\u6c11\u751f\u5e97",
+        "address": "\u65b0\u7af9\u5e02\u6771\u5340\u6c11\u751f\u8def306\u865f\n(\u5168\u570b\u52a0\u6cb9\u7ad9\u65c1)",
+        "number": "03-535-0420",
+        "hours": "\u6bcf\u65e5 08:00 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.971313,
+          24.803582
+        ]
+      },
+      "properties": {
+        "name": "\u65b0\u7af9\u4e2d\u6b63\u5e97",
+        "address": "\u65b0\u7af9\u5e02\u6771\u5340\u4e2d\u6b63\u8def36\u865f",
+        "number": "03-528-0337",
+        "hours": "\u6bcf\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.010769,
+          24.826248
+        ]
+      },
+      "properties": {
+        "name": "\u65b0\u7af9\u7af9\u5317\u5e97",
+        "address": "\u65b0\u7af9\u7e23\u7af9\u5317\u5e02\u5149\u660e\u516d\u8def69\u865f\n(\u65b0\u7af9\u7e23\u653f\u5e9c\u659c\u5c0d\u9762 )",
+        "number": "03-554-1508",
+        "hours": "\u6bcf\u65e5 10:00 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.025811,
+          24.816465
+        ]
+      },
+      "properties": {
+        "name": "\u7af9\u5317\u81ea\u5f37\u5e97",
+        "address": "\u65b0\u7af9\u7e23\u7af9\u5317\u5e02\u81ea\u5f37\u5357\u8def95\u300197\u865f\n(\u5bf6\u96c5\u65c1)",
+        "number": "03-667-3165",
+        "hours": "\u6bcf\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.99374,
+          24.867936
+        ]
+      },
+      "properties": {
+        "name": "\u65b0\u7af9\u65b0\u8c50\u5e97",
+        "address": "\u65b0\u7af9\u7e23\u65b0\u8c50\u9109\u65b0\u8208\u8def163-5\u865f\n(\u660e\u65b0\u79d1\u5927\u9644\u8fd1)",
+        "number": "03-559-3567",
+        "hours": "\u6bcf\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.084317,
+          24.742837
+        ]
+      },
+      "properties": {
+        "name": "\u65b0\u7af9\u7af9\u6771\u5e97",
+        "address": "\u65b0\u7af9\u7e23\u7af9\u6771\u93ae\u9577\u6625\u8def\u4e09\u6bb5130\u865f\n(\u5bf6\u96c5\u65c1)",
+        "number": "03-596-7640",
+        "hours": "\u4e94\u516d 07:00 ~ 24:00\n\u5176\u4ed6 07:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.225668,
+          24.954223
+        ]
+      },
+      "properties": {
+        "name": "\u4e2d\u58e2\u4e2d\u548c\u5e97",
+        "address": "\u6843\u5712\u5e02\u4e2d\u58e2\u5340\u4e2d\u548c\u8def106\u865f\n(\u4e2d\u58e2\u706b\u8eca\u7ad9\u5c0d\u9762)",
+        "number": "03-422-1802",
+        "hours": "\u4e00~\u56db 08:00 ~ 22:00\n\u4e94~\u65e5 08:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.221482,
+          24.95531
+        ]
+      },
+      "properties": {
+        "name": "\u4e2d\u58e2\u4e2d\u6b63\u5e97",
+        "address": "\u6843\u5712\u5e02\u4e2d\u58e2\u5340\u4e2d\u6b63\u8def161\u865f\n(\u4e2d\u58e2\u570b\u5c0f\u65c1)",
+        "number": "03-422-3440",
+        "hours": "\u5e73\u65e5 10:00 ~ 22:00\n\u5047\u65e5 09:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.204724,
+          24.95751
+        ]
+      },
+      "properties": {
+        "name": "\u4e2d\u58e2\u6c11\u65cf\u5e97",
+        "address": "\u6843\u5712\u5e02\u4e2d\u58e2\u5340\u6c11\u65cf\u8def\u4e8c\u6bb5138\u865f\n(\u7950\u6c11\u91ab\u9662\u65c1)",
+        "number": "03-492-9339",
+        "hours": "\u6bcf\u65e5 07:00 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.257039,
+          24.963232
+        ]
+      },
+      "properties": {
+        "name": "\u4e2d\u58e2\u74b0\u4e2d\u6771\u5e97",
+        "address": "\u6843\u5712\u5e02\u4e2d\u58e2\u5340\u74b0\u4e2d\u6771\u8def249\u865f\n(\u9577\u69ae\u91ab\u9662\u5c0d\u9762)",
+        "number": "03-455-9916",
+        "hours": "\u6bcf\u65e5 07:00 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.237102,
+          24.949584
+        ]
+      },
+      "properties": {
+        "name": "\u4e2d\u58e2\u74b0\u4e2d\u6771\u4e8c\u5e97",
+        "address": "\u6843\u5712\u5e02\u4e2d\u58e2\u5340\u74b0\u4e2d\u6771\u8def\u4e8c\u6bb5150-154\u865f1\u6a13",
+        "number": "03-455-9916",
+        "hours": "\u6bcf\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.218321,
+          24.868529
+        ]
+      },
+      "properties": {
+        "name": "\u9f8d\u6f6d\u5317\u9f8d\u5e97",
+        "address": "\u6843\u5712\u5e02\u9f8d\u6f6d\u5340\u5317\u9f8d\u8def309, 309-1\u865f",
+        "number": "03-480-8696",
+        "hours": "\u4e94\u516d 08:00 ~ 24:00\n\u5176\u4ed6 08:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.167045,
+          24.909008
+        ]
+      },
+      "properties": {
+        "name": "\u694a\u6885\u4e2d\u5c71\u5e97",
+        "address": "\u6843\u5712\u5e02\u694a\u6885\u5340\u4e2d\u5c71\u5317\u8def\u4e8c\u6bb56-1\u865f\n(\u611b\u8cb7\u5c0d\u9762)",
+        "number": "03-481-2853",
+        "hours": "\u6bcf\u65e5 07:00 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.145563,
+          24.910433
+        ]
+      },
+      "properties": {
+        "name": "\u694a\u6885\u5927\u6210\u5e97",
+        "address": "\u6843\u5712\u5e02\u694a\u6885\u5340\u5927\u6210\u8def107\u865f",
+        "number": "03-288-9081",
+        "hours": "\u4e00~\u56db 10:00 ~ 22:00\n\u4e94~\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.302235,
+          24.992093
+        ]
+      },
+      "properties": {
+        "name": "\u6843\u5712\u4e2d\u5c71\u4e8c\u5e97",
+        "address": "\u6843\u5712\u5e02\u6843\u5712\u5340\u4e2d\u5c71\u8def444-446\u865f",
+        "number": "03-336-0860",
+        "hours": "\u6bcf\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.298272,
+          25.018313
+        ]
+      },
+      "properties": {
+        "name": "\u6843\u5712\u5357\u5e73\u5e97",
+        "address": "\u6843\u5712\u5e02\u6843\u5712\u5340\u5357\u5e73\u8def330\u865f1\u6a13",
+        "number": "03-356-8388",
+        "hours": "\u4e00~\u56db 10:00 ~ 23:00\n\u4e94~\u65e5 10:30 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.296467,
+          25.009929
+        ]
+      },
+      "properties": {
+        "name": "\u6843\u5712\u5927\u8208\u897f\u5e97",
+        "address": "\u6843\u5712\u5e02\u6843\u5712\u5340\u5927\u8208\u897f\u8def\u4e8c\u6bb5159\u865f",
+        "number": "03-301-6355",
+        "hours": "\u6bcf\u65e5 07:00 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.318793,
+          24.983595
+        ]
+      },
+      "properties": {
+        "name": "\u6843\u5712\u6843\u9daf\u5e97",
+        "address": "\u6843\u5712\u5e02\u6843\u5712\u5340\u6843\u9daf\u8def265\u865f\n(\u6afb\u73cd\u98ef\u5e97\u5c0d\u9762)",
+        "number": "03-218-1536",
+        "hours": "\u6bcf\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.367672,
+          25.059044
+        ]
+      },
+      "properties": {
+        "name": "\u6797\u53e3\u5fa9\u8208\u5e97",
+        "address": "\u6843\u5712\u5e02\u9f9c\u5c71\u5340\u5fa9\u8208\u4e00\u8def110-112\u865f\n(\u6797\u53e3\u9577\u5e9a\u91ab\u9662\u5c0d\u9762)",
+        "number": "03-397-0078",
+        "hours": "\u6bcf\u65e5 07:00 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.33203,
+          24.993334
+        ]
+      },
+      "properties": {
+        "name": "\u6843\u5712\u842c\u58fd\u5e97",
+        "address": "\u6843\u5712\u5e02\u9f9c\u5c71\u5340\u842c\u58fd\u8def\u4e8c\u6bb51185\u865f",
+        "number": "03-319-1529",
+        "hours": "\u4e94\u516d 10:00 ~ 24:00\n\u5176\u4ed6 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.299856,
+          24.96237
+        ]
+      },
+      "properties": {
+        "name": "\u6843\u5712\u4ecb\u58fd\u5e97",
+        "address": "\u6843\u5712\u5e02\u516b\u5fb7\u5340\u4ecb\u58fd\u8def\u4e00\u6bb5808\u865f",
+        "number": "03-218-1308",
+        "hours": "\u6bcf\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.278648,
+          24.896536
+        ]
+      },
+      "properties": {
+        "name": "\u6843\u5712\u5927\u6eaa\u5e97",
+        "address": "\u6843\u5712\u5e02\u5927\u6eaa\u5340\u54e1\u6797\u8def\u4e00\u6bb5199\u865f",
+        "number": "03-380-6380",
+        "hours": "\u6bcf\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.201438,
+          25.062353
+        ]
+      },
+      "properties": {
+        "name": "\u6843\u5712\u5927\u5712\u5e97",
+        "address": "\u6843\u5712\u5e02\u5927\u5712\u5340\u4e2d\u6b63\u6771\u8def142\u865f\n(\u5927\u5712\u8fb2\u6703\u5c0d\u9762)",
+        "number": "03-384-0236",
+        "hours": "\u6bcf\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.29423,
+          25.043948
+        ]
+      },
+      "properties": {
+        "name": "\u6843\u5712\u5357\u5d01\u4e2d\u6b63\u5e97",
+        "address": "\u6843\u5712\u5e02\u8606\u7af9\u5340\u5357\u5d01\u6751\u4e2d\u6b63\u8def8~12\u865f",
+        "number": "03-212-0566",
+        "hours": "\u4e94\u516d 07:00 ~ 24:00\n\u5176\u4ed6 07:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.287994,
+          25.053011
+        ]
+      },
+      "properties": {
+        "name": "\u6843\u5712\u53f0\u8302\u4e09\u5e97",
+        "address": "\u6843\u5712\u5e02\u8606\u7af9\u5340\u5357\u5d01\u8def\u4e00\u6bb5112\u865fB2\n(\u53f0\u8302\u8cfc\u7269\u4e2d\u5fc3\u5167)",
+        "number": "03-311-2955",
+        "hours": "\u5e73\u65e5 10:00 ~ 22:00\n\u5047\u65e5 10:30 ~ 22:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.264598,
+          25.020797
+        ]
+      },
+      "properties": {
+        "name": "\u6843\u5712\u5927\u7af9\u5e97",
+        "address": "\u6843\u5712\u5e02\u8606\u7af9\u5340\u5927\u7af9\u8def428-1\u865f",
+        "number": "03-313-1798",
+        "hours": "\u6bcf\u65e5 11:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.870678,
+          24.687688
+        ]
+      },
+      "properties": {
+        "name": "\u82d7\u6817\u7af9\u5357\u5e97",
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u535a\u611b\u8857320-1\u865f",
+        "number": "03-755-2703",
+        "hours": "\u6bcf\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.816075,
+          24.552061
+        ]
+      },
+      "properties": {
+        "name": "\u82d7\u6817\u4e2d\u6b63\u5e97",
+        "address": "\u82d7\u6817\u7e23\u82d7\u6817\u5e02\u4e2d\u6b63\u8def880\u865f&\u5149\u5fa9\u8def1\u865f\n(\u5357\u82d7\u4e09\u89d2\u516c\u5712\u65c1)",
+        "number": "03-735-6456",
+        "hours": "\u5e73\u65e5 10:00 ~ 23:00\n\u5047\u65e5 09:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.913039,
+          24.690876
+        ]
+      },
+      "properties": {
+        "name": "\u82d7\u6817\u982d\u4efd\u5e97",
+        "address": "\u82d7\u6817\u7e23\u982d\u4efd\u5e02\u4e2d\u83ef\u8def1243\u30011245\u865f1\u30012\u6a13\n(\u4e0b\u982d\u4efd\u4ea4\u6d41\u9053\u5de6\u8f49)",
+        "number": "03-759-5218",
+        "hours": "\u9031\u4e94 10:00 ~ 24:00\n\u9031\u516d 09:00 ~ 24:00\n\u9031\u65e5 09:00 ~ 23:00\n\u5176\u4ed6 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.684379,
+          24.138306
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u4e2d\u7ad9\u524d\u5e97",
+        "address": "\u53f0\u4e2d\u5e02\u4e2d\u5340\u53f0\u7063\u5927\u9053\u4e00\u6bb538\u865f\n(\u9760\u8fd1\u7da0\u5ddd&\u7e7c\u5149\u8857)",
+        "number": "04-2252-1979",
+        "hours": "\u6bcf\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.685728,
+          24.135446
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u4e2d\u5f8c\u8eca\u7ad9\u5e97",
+        "address": "\u53f0\u4e2d\u5e02\u6771\u5340\u5fa9\u8208\u8def\u56db\u6bb5108\u865f\n(\u9760\u8fd1\u65b0\u6642\u4ee3\u5546\u5834)",
+        "number": "04-2229-1880",
+        "hours": "\u5e73\u65e5 10:00 ~ 23:00\n\u5047\u65e5 09:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.658279,
+          24.117311
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u4e2d\u5fa9\u8208\u5e97",
+        "address": "\u53f0\u4e2d\u5e02\u5357\u5340\u5fa9\u8208\u8def\u4e8c\u6bb58\u4e4b1\u865f\n(\u5b9c\u5be7\u4e2d\u5b78\u659c\u5c0d\u9762)",
+        "number": "04-2261-4885",
+        "hours": "\u6bcf\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.662275,
+          24.150742
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u4e2d\u516c\u76ca\u5e97",
+        "address": "\u53f0\u4e2d\u5e02\u897f\u5340\u516c\u76ca\u8def163\u865f",
+        "number": "04-2302-7066",
+        "hours": "\u6bcf\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.676495,
+          24.150303
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u4e2d\u4e94\u6b0a\u5e97",
+        "address": "\u53f0\u4e2d\u5e02\u5317\u5340\u4e94\u6b0a\u8def202\u865f",
+        "number": "04-2202-2088",
+        "hours": "\u6bcf\u65e5 07:00 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.699797,
+          24.176385
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u4e2d\u5927\u8cb7\u5bb6\u5e97",
+        "address": "\u53f0\u4e2d\u5e02\u5317\u5c6f\u5340\u5317\u5c6f\u8def370\u865f1F\n(\u5927\u8cb7\u5bb6\u91cf\u8ca9\u5e97\u4e00\u6a13)",
+        "number": "04-2249-1318",
+        "hours": "\u6bcf\u65e5 10:00 ~ 22:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.676391,
+          24.173704
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u4e2d\u6587\u5fc3\u5e97",
+        "address": "\u53f0\u4e2d\u5e02\u5317\u5c6f\u5340\u6587\u5fc3\u8def\u56db\u6bb5153\u865f\n(\u6587\u5fc3\u5c71\u897f\u8def\u53e3)",
+        "number": "04-2292-0640",
+        "hours": "\u6bcf\u65e5 07:00 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.684338,
+          24.172043
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u4e2d\u6587\u5fc3\u4e8c\u5e97",
+        "address": "\u53f0\u4e2d\u5e02\u5317\u5c6f\u5340\u6587\u5fc3\u8def\u56db\u6bb5520\u865f\n(\u6587\u5fc3\u5d07\u5fb7\u8def\u53e3)",
+        "number": "04-2236-8033",
+        "hours": "\u6bcf\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.6862,
+          24.191178
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u4e2d\u5d07\u5fb7\u5e97",
+        "address": "\u53f0\u4e2d\u5e02\u5317\u5c6f\u5340\u5d07\u5fb7\u8def\u4e09\u6bb5463\u865f\n(\u4ec1\u7f8e\u570b\u5c0f\u5c0d\u9762\uff0c\u8fd1\u6d32\u969b\u68d2\u7403\u5834)",
+        "number": "04-2422-0907",
+        "hours": "\u4e94\u516d 10:00 ~ 24:00\n\u5176\u4ed6 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.662534,
+          24.187971
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u4e2d\u4e2d\u6e05\u5e97",
+        "address": "\u53f0\u4e2d\u5e02\u5317\u5c6f\u5340\u4e2d\u6e05\u8def\u4e8c\u6bb5915,917\u865f\n(\u8fd1\u4e2d\u6e05\u6566\u5316\u8def\u53e3)",
+        "number": "04-2426-1138",
+        "hours": "\u4e94\u516d 07:00 ~ 24:00\n\u5176\u4ed6 07:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.615064,
+          24.184137
+        ]
+      },
+      "properties": {
+        "name": "\u897f\u5c6f\u5bb6\u6a02\u798f\u5e97",
+        "address": "\u53f0\u4e2d\u5e02\u897f\u5c6f\u5340\u53f0\u7063\u5927\u9053\u56db\u6bb51086\u865f",
+        "number": "04-2462-1958",
+        "hours": "\u6bcf\u65e5 10:00 ~ 22:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.654972,
+          24.168894
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u4e2d\u6587\u5fc3\u4e09\u5e97",
+        "address": "\u53f0\u4e2d\u5e02\u897f\u5c6f\u5340\u6587\u5fc3\u8def3\u6bb5119-1\u865f\n(\u6587\u5fc3\u6afb\u82b1\u8def\u53e3)",
+        "number": "04-2312-5721",
+        "hours": "\u6bcf\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.621137,
+          24.184476
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u4e2d\u6c38\u798f\u5e97",
+        "address": "\u53f0\u4e2d\u5e02\u897f\u5c6f\u5340\u6c38\u798f\u8def120\u865f",
+        "number": "04-2461-9005",
+        "hours": "\u6bcf\u65e5 08:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.644648,
+          24.171503
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u4e2d\u6cb3\u5357\u5e97",
+        "address": "\u53f0\u4e2d\u5e02\u897f\u5c6f\u5340\u6cb3\u5357\u8def\u4e8c\u6bb5\n363-7\u3001363-8\u865f",
+        "number": "04-2706-1736",
+        "hours": "\u6bcf\u65e5 08:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.644736,
+          24.182545
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u4e2d\u798f\u661f\u5e97",
+        "address": "\u53f0\u4e2d\u5e02\u897f\u5c6f\u5340\u798f\u661f\u5317\u8def1\u865f 1~2\u6a13",
+        "number": "04-2707-6080",
+        "hours": "\u6bcf\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.65157,
+          24.1403
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u4e2d\u4e94\u6b0a\u897f\u5e97",
+        "address": "\u53f0\u4e2d\u5e02\u5357\u5c6f\u5340\u4e94\u6b0a\u897f\u8def\u4e8c\u6bb5136\u865f\n(\u5357\u5c71\u4eba\u58fd\u5927\u6a13\u65c1)",
+        "number": "04-2475-1822",
+        "hours": "\u6bcf\u65e5 07:00 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.633148,
+          24.144807
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u4e2d\u4e94\u6b0a\u897f\u4e8c\u5e97",
+        "address": "\u53f0\u4e2d\u5e02\u5357\u5c6f\u5340\u4e94\u6b0a\u897f\u8def\u4e8c\u6bb5\n931\u3001933\u865f\n(\u5411\u4e0a\u8def\u53e3\u7389\u5e02\u65c1)",
+        "number": "04-2382-5708",
+        "hours": "\u6bcf\u65e5 08:00 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.690148,
+          24.110167
+        ]
+      },
+      "properties": {
+        "name": "\u5927\u91cc\u4e2d\u8208\u4e8c\u5e97",
+        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u4e2d\u8208\u8def\u4e8c\u6bb5478\u865f",
+        "number": "04-2485-2890",
+        "hours": "\u5e73\u65e5 10:00 ~ 23:00\n\u5047\u65e5 09:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.682252,
+          24.100546
+        ]
+      },
+      "properties": {
+        "name": "\u5927\u91cc\u570b\u5149\u5e97",
+        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u570b\u5149\u8def\u4e8c\u6bb575\u865f1-3\u6a13",
+        "number": "04-2407-1261",
+        "hours": "\u6bcf\u65e5 07:00 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.636318,
+          24.107396
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u4e2d\u70cf\u65e5\u5e97",
+        "address": "\u53f0\u4e2d\u5e02\u70cf\u65e5\u5340\u4e5d\u5fb7\u6751\u4e2d\u5c71\u8def\u4e00\u6bb5450\u865f",
+        "number": "04-2337-8852",
+        "hours": "\u4e94\u516d 07:00 ~ 24:00\n\u5176\u4ed6 07:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.721671,
+          24.253031
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u4e2d\u8c50\u539f\u5e97",
+        "address": "\u53f0\u4e2d\u5e02\u8c50\u539f\u5340\u4e2d\u6b63\u8def46\u865f",
+        "number": "04-2528-5192",
+        "hours": "\u6bcf\u65e5 08:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.700431,
+          24.21387
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u4e2d\u6f6d\u5b50\u5e97",
+        "address": "\u53f0\u4e2d\u5e02\u6f6d\u5b50\u5340\u52dd\u5229\u8def311\u865f\n(\u52dd\u5229\u5341\u4e09\u8857\u53e3)",
+        "number": "04-2535-0729",
+        "hours": "\u5e73\u65e5 10:00 ~ 23:00\n\u5047\u65e5 09:30 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.645178,
+          24.225264
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u4e2d\u5927\u96c5\u5e97",
+        "address": "\u53f0\u4e2d\u5e02\u5927\u96c5\u5340\u4e2d\u6e05\u8def\u4e09\u6bb51215\u865f\n(\u4e2d\u6e05\u6c11\u751f\u8def\u53e3)",
+        "number": "04-2568-5506",
+        "hours": "\u6bcf\u65e5 07:00 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.559054,
+          24.235816
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u4e2d\u6c99\u9e7f\u5e97",
+        "address": "\u53f0\u4e2d\u5e02\u6c99\u9e7f\u5340\u6c99\u7530\u8def127\u865f",
+        "number": "04-2662-6300",
+        "hours": "\u5e73\u65e5 10:00 ~ 24:00\n\u5047\u65e5 09:00 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.540419,
+          24.068044
+        ]
+      },
+      "properties": {
+        "name": "\u5f70\u5316\u4e2d\u5c71\u5e97",
+        "address": "\u5f70\u5316\u7e23\u5f70\u5316\u5e02\u4e2d\u5c71\u8def\u4e8c\u6bb5126\u865f\n(\u79c0\u50b3\u91ab\u9662\u9644\u8fd1)",
+        "number": "04-711-6871",
+        "hours": "\u6bcf\u65e5 07:00 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.540632,
+          24.093787
+        ]
+      },
+      "properties": {
+        "name": "\u5f70\u5316\u91d1\u99ac\u5e97",
+        "address": "\u5f70\u5316\u7e23\u5f70\u5316\u5e02\u91d1\u99ac\u8def\u4e8c\u6bb5425\u865f\n(\u5bb6\u6a02\u798f\u9644\u8fd1)",
+        "number": "04-736-5840",
+        "hours": "\u4e94\u516d 08:00 ~ 24:00\n\u5176\u4ed6 08:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.43351,
+          24.055739
+        ]
+      },
+      "properties": {
+        "name": "\u5f70\u5316\u9e7f\u6e2f\u5e97",
+        "address": "\u5f70\u5316\u7e23\u9e7f\u6e2f\u93ae\u6c11\u6b0a\u8def243\u865f\n(\u8001\u8857\u9644\u8fd1)",
+        "number": "04-776-6099",
+        "hours": "\u5e73\u65e5 10:00 ~ 22:00\n\u5047\u65e5 09:00 ~ 22:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.505556,
+          24.105653
+        ]
+      },
+      "properties": {
+        "name": "\u5f70\u5316\u548c\u7f8e\u5e97",
+        "address": "\u5f70\u5316\u7e23\u548c\u7f8e\u93ae\u5f70\u7f8e\u8def\u56db\u6bb5438\u865f",
+        "number": "04-755-7778",
+        "hours": "\u6bcf\u65e5 10:00 ~ 22:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.571145,
+          23.959547
+        ]
+      },
+      "properties": {
+        "name": "\u5f70\u5316\u54e1\u6797\u5e97",
+        "address": "\u5f70\u5316\u7e23\u54e1\u6797\u5e02\u6c11\u6b0a\u885726\u300128\u865f\n(\u8eca\u7ad9\u524d)",
+        "number": "04-837-0269",
+        "hours": "\u5e73\u65e5 10:00 ~ 23:30\n\u5047\u65e5 09:00 ~ 23:30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.518152,
+          23.874263
+        ]
+      },
+      "properties": {
+        "name": "\u5f70\u5316\u5317\u6597\u5e97",
+        "address": "\u5f70\u5316\u7e23\u5317\u6597\u93ae\u4e2d\u5c71\u8def\u4e8c\u6bb540\u865f",
+        "number": "04-887-1686",
+        "hours": "\u4e94\u516d 10:00 ~ 24:00\n\u5176\u4ed6 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.54105,
+          24.023919
+        ]
+      },
+      "properties": {
+        "name": "\u5f70\u5316\u82b1\u58c7\u5e97",
+        "address": "\u5f70\u5316\u7e23\u82b1\u58c7\u9109\u82b1\u58c7\u6751\u4e2d\u5c71\u8def\u4e00\u6bb5385\u865f",
+        "number": "04-786-0855",
+        "hours": "\u4e94\u516d 10:00 ~ 24:00\n\u5176\u4ed6 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.678873,
+          23.911702
+        ]
+      },
+      "properties": {
+        "name": "\u5357\u6295\u5357\u5d17\u5e97",
+        "address": "\u5357\u6295\u7e23\u5357\u6295\u5e02\u5357\u5d17\u4e8c\u8def212\u865f",
+        "number": "04-9222-1080",
+        "hours": "\u5e73\u65e5 10:00 ~ 22:00\n\u5047\u65e5 09:00 ~ 22:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.968968,
+          23.963767
+        ]
+      },
+      "properties": {
+        "name": "\u5357\u6295\u57d4\u91cc\u5e97",
+        "address": "\u5357\u6295\u7e23\u57d4\u91cc\u93ae\u4e2d\u6b63\u8def340\u865f",
+        "number": "04-9299-7651",
+        "hours": "\u5e73\u65e5 10:00 ~ 23:00\n\u5047\u65e5 09:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.683533,
+          23.975049
+        ]
+      },
+      "properties": {
+        "name": "\u5357\u6295\u8349\u5c6f\u5e97",
+        "address": "\u5357\u6295\u7e23\u8349\u5c6f\u93ae\u592a\u5e73\u8def2\u6bb5235\u865f",
+        "number": "04-9236-2208\t",
+        "hours": "\u5e73\u65e5 10:00 ~ 23:00 \n\u5047\u65e5 09:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.451645,
+          23.494992
+        ]
+      },
+      "properties": {
+        "name": "\u5609\u7fa9\u5fe0\u5b5d\u5e97",
+        "address": "\u5609\u7fa9\u5e02\u6771\u5340\u5fe0\u5b5d\u8def489\u865f",
+        "number": "05-271-5603",
+        "hours": "\u9031\u4e94 10:00 ~ 24:00\n\u5468\u672b 09:00 ~ 24:00\n\u5176\u4ed6 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.429211,
+          23.479674
+        ]
+      },
+      "properties": {
+        "name": "\u5609\u7fa9\u4e2d\u8208\u5e97",
+        "address": "\u5609\u7fa9\u5e02\u897f\u5340\u4e2d\u8208\u8def396\u865f",
+        "number": "05-233-6139",
+        "hours": "\u4e00~\u56db 08:00 ~ 23:00\n\u4e94~\u65e5 08:00 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.44834,
+          23.473902
+        ]
+      },
+      "properties": {
+        "name": "\u5609\u7fa9\u5782\u694a\u5e97",
+        "address": "\u5609\u7fa9\u5e02\u897f\u5340\u5782\u694a\u8def460\u865f",
+        "number": "05-228-6082",
+        "hours": "\u5e73\u65e5 10:00 ~ 24:00\n\u5047\u65e5 09:00 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.433763,
+          23.559527
+        ]
+      },
+      "properties": {
+        "name": "\u5609\u7fa9\u6c11\u96c4\u5e97",
+        "address": "\u5609\u7fa9\u7e23\u6c11\u96c4\u9109\u5efa\u570b\u8def\u4e00\u6bb5239\u865f",
+        "number": "05-226-5838",
+        "hours": "\u4e94\u516d 09:30 ~ 24:00\n\u5176\u4ed6 09:30 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.537161,
+          23.701328
+        ]
+      },
+      "properties": {
+        "name": "\u6597\u516d\u6c11\u751f\u5e97",
+        "address": "\u96f2\u6797\u7e23\u6597\u516d\u5e02\u6c11\u751f\u5357\u8def169\u865f",
+        "number": "05-533-1253",
+        "hours": "\u5e73\u65e5 10:00 ~ 23:00\n\u5047\u65e5 09:30 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.43651,
+          23.709632
+        ]
+      },
+      "properties": {
+        "name": "\u96f2\u6797\u864e\u5c3e\u5e97",
+        "address": "\u96f2\u6797\u7e23\u864e\u5c3e\u93ae\u4e2d\u6b63\u8def30\u865fB1-4\u6a13\n(\u82e5\u745f\u91ab\u9662\u9644\u8fd1)",
+        "number": "05-631-1523",
+        "hours": "\u5e73\u65e5 10:00 ~ 23:00\n\u5047\u65e5 09:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.300053,
+          23.571464
+        ]
+      },
+      "properties": {
+        "name": "\u96f2\u6797\u5317\u6e2f\u5e97",
+        "address": "\u96f2\u6797\u7e23\u5317\u6e2f\u93ae\u83ef\u5357\u8def36\u865f",
+        "number": "05-782-6088",
+        "hours": "\u4e94\u516d 10:00 ~ 24:00\n\u5176\u4ed6 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.186999,
+          22.992996
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u5357\u4e2d\u83ef\u897f\u5e97",
+        "address": "\u53f0\u5357\u5e02\u4e2d\u897f\u5340\u4e2d\u83ef\u897f\u8def\u4e8c\u6bb538\u865f\n(\u5e02\u653f\u5e9c\u65c1)",
+        "number": "06-299-5268",
+        "hours": "\u6bcf\u65e5 07:00 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.210215,
+          22.994588
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u5357\u6c11\u65cf\u5e97",
+        "address": "\u53f0\u5357\u5e02\u4e2d\u897f\u5340\u6c11\u65cf\u8def\u4e8c\u6bb564\u865f",
+        "number": "06-223-2180",
+        "hours": "\u6bcf\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.220931,
+          22.995901
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u5357\u6210\u5927\u5e97",
+        "address": "\u53f0\u5357\u5e02\u6771\u5340\u5927\u5b78\u8def20\u865f\n(\u6210\u529f\u5927\u5b78\u65c1)",
+        "number": "06-209-8968",
+        "hours": "\u6bcf\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.221015,
+          22.976198
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u5357\u5d07\u660e\u5e97",
+        "address": "\u53f0\u5357\u5e02\u6771\u5340\u5d07\u660e\u8def376\u865f\n(\u6587\u5316\u4e2d\u5fc3\u65c1)",
+        "number": "06-335-0615",
+        "hours": "\u6bcf\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.228096,
+          22.98246
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u5357\u6771\u9580\u5e97",
+        "address": "\u53f0\u5357\u5e02\u6771\u5340\u6771\u9580\u8def\u4e8c\u6bb5369\u865f\n(\u4e2d\u6cb9\u52a0\u6cb9\u7ad9\u65c1)",
+        "number": "06-275-9990",
+        "hours": "\u6bcf\u65e5 07:00 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.191557,
+          22.981066
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u5357\u91d1\u83ef\u5e97",
+        "address": "\u53f0\u5357\u5e02\u5357\u5340\u91d1\u83ef\u8def\u4e8c\u6bb5238\u865f",
+        "number": "06-261-1979",
+        "hours": "\u5e73\u65e5 10:00 ~ 23:00\n\u5047\u65e5 09:30 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.207858,
+          23.009877
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u5357\u897f\u9580\u4e8c\u5e97",
+        "address": "\u53f0\u5357\u5e02\u5317\u5340\u897f\u9580\u8def\u56db\u6bb5155\u865f\n(\u5c0f\u5317\u6210\u529f\u591c\u5e02\u65c1)",
+        "number": "06-281-8438",
+        "hours": "\u6bcf\u65e5 08:00 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.191878,
+          23.023796
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u5357\u6d77\u4f43\u5e97",
+        "address": "\u53f0\u5357\u5e02\u5b89\u5357\u5340\u6d77\u4f43\u8def\u4e00\u6bb5138\u3001140\u865f\n(\u570b\u5b89\u8857\u6587\u8ce2\u83dc\u5e02\u5834\u5c0d\u9762)",
+        "number": "06-250-2398",
+        "hours": "\u4e94\u516d 10:00 ~ 24:00\n\u5176\u4ed6 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.242382,
+          23.041239
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u5357\u6c38\u5eb7\u5e97",
+        "address": "\u53f0\u5357\u5e02\u6c38\u5eb7\u5340\u4e2d\u6b63\u5317\u8def126\u865f\n(\u6c38\u5eb7\u4ea4\u6d41\u9053\u65c1)",
+        "number": "06-242-4990",
+        "hours": "\u5e73\u65e5 10:00 ~ 24:00\n\u5047\u65e5 09:00 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.234964,
+          23.002968
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u5357\u4e2d\u83ef\u5e97",
+        "address": "\u53f0\u5357\u5e02\u6c38\u5eb7\u5340\u4e2d\u83ef\u8def145\u865f\n(\u5175\u4ed4\u5e02\u5834\u65c1)",
+        "number": "06-313-7032",
+        "hours": "\u6bcf\u65e5 07:00 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.255936,
+          22.999492
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u5357\u5927\u7063\u5e97",
+        "address": "\u53f0\u5357\u5e02\u6c38\u5eb7\u5340\u5927\u7063\u8def843 ,845\u865f",
+        "number": "06-271-1860",
+        "hours": "\u6bcf\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.31626,
+          23.307339
+        ]
+      },
+      "properties": {
+        "name": "\u65b0\u71df\u4e2d\u6b63\u5e97",
+        "address": "\u53f0\u5357\u5e02\u65b0\u71df\u5340\u4e2d\u6b63\u8def6-1\u865f",
+        "number": "06-635-8958",
+        "hours": "\u4e00~\u56db 07:00 ~ 23:00\n\u4e94~\u65e5 07:00 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.292953,
+          23.128594
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u5357\u5584\u5316\u5e97",
+        "address": "\u53f0\u5357\u5e02\u5584\u5316\u5340\u5149\u5fa9\u8def51\u865f",
+        "number": "06-581-6101",
+        "hours": "\u6bcf\u65e5 09:30 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.322597,
+          22.61971
+        ]
+      },
+      "properties": {
+        "name": "\u9ad8\u96c4\u4e09\u591a\u5e97",
+        "address": "\u9ad8\u96c4\u5e02\u82d3\u96c5\u5340\u4e09\u591a\u4e8c\u8def193\u865f\n(\u5168\u570b\u52a0\u6cb9\u7ad9\u6709\u9ede\u9910\u8eca\u9053)",
+        "number": "07-726-5483",
+        "hours": "\u4e00~\u56db 07:00 ~ 23:00\n\u4e94~\u65e5 07:00 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.315356,
+          22.628052
+        ]
+      },
+      "properties": {
+        "name": "\u9ad8\u96c4\u6587\u5316\u5e97",
+        "address": "\u9ad8\u96c4\u5e02\u82d3\u96c5\u5340\u4e94\u798f\u4e00\u8def22\u865f\n(\u4e94\u798f\u570b\u4e2d\u65c1)",
+        "number": "07-222-3828",
+        "hours": "\u5e73\u65e5 10:00 ~ 23:00\n\u5047\u65e5 09:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.288173,
+          22.651152
+        ]
+      },
+      "properties": {
+        "name": "\u9ad8\u96c4\u9752\u6d77\u5e97",
+        "address": "\u9ad8\u96c4\u5e02\u9f13\u5c71\u5340\u9752\u6d77\u8def151\u865f",
+        "number": "07-550-3203",
+        "hours": "\u6bcf\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.304695,
+          22.605182
+        ]
+      },
+      "properties": {
+        "name": "\u9ad8\u96c4\u4e2d\u83ef\u4e94\u5e97",
+        "address": "\u9ad8\u96c4\u5e02\u524d\u93ae\u5340\u4e2d\u83ef\u4e94\u8def1111\u865f\n(\u5bb6\u6a02\u798f\u6210\u529f\u5e97\u5167)",
+        "number": "07-536-6292",
+        "hours": "\u6bcf\u65e5 10:00 ~ 22:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.308881,
+          22.644983
+        ]
+      },
+      "properties": {
+        "name": "\u9ad8\u96c4\u5341\u5168\u5e97",
+        "address": "\u9ad8\u96c4\u5e02\u4e09\u6c11\u5340\u5341\u5168\u4e00\u8def161\u865f1\u6a13\n(\u9ad8\u91ab\u659c\u5c0d\u9762)",
+        "number": "07-315-9845",
+        "hours": "\u6bcf\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.326276,
+          22.644449
+        ]
+      },
+      "properties": {
+        "name": "\u9ad8\u96c4\u5927\u9806\u4e8c\u5e97",
+        "address": "\u9ad8\u96c4\u5e02\u4e09\u6c11\u5340\u5927\u9806\u4e8c\u8def246\u865f\n(\u6a39\u5fb7\u5bb6\u5546)",
+        "number": "07-398-6480",
+        "hours": "\u6bcf\u65e5 08:00 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.301507,
+          22.63767
+        ]
+      },
+      "properties": {
+        "name": "\u9ad8\u96c4\u7ad9\u524d\u5e97",
+        "address": "\u9ad8\u96c4\u5e02\u4e09\u6c11\u5340\u5efa\u570b\u4e09\u8def23\u865f\n(\u9ad8\u96c4\u706b\u8eca\u7ad9\u524d)",
+        "number": "07-285-6252",
+        "hours": "\u5e73\u65e5 10:00 ~ 23:00\n\u5047\u65e5 09:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.319822,
+          22.666876
+        ]
+      },
+      "properties": {
+        "name": "\u9ad8\u96c4\u9f0e\u4e2d\u5e97",
+        "address": "\u9ad8\u96c4\u5e02\u4e09\u6c11\u5340\u9f0e\u4e2d\u8def400\u865f",
+        "number": "07-285-6252",
+        "hours": "\u6bcf\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.32681,
+          22.727107
+        ]
+      },
+      "properties": {
+        "name": "\u9ad8\u96c4\u6960\u6893\u4e8c\u5e97",
+        "address": "\u9ad8\u96c4\u5e02\u6960\u6893\u5340\u5efa\u6960\u8def150-152\u865f\n(\u6960\u6893\u706b\u8eca\u7ad9\u524d)",
+        "number": "07-355-0175",
+        "hours": "\u6bcf\u65e5 09:30 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.292101,
+          22.718587
+        ]
+      },
+      "properties": {
+        "name": "\u9ad8\u96c4\u5f8c\u660c\u5e97",
+        "address": "\u9ad8\u96c4\u5e02\u6960\u6893\u5340\u5f8c\u660c\u65b0\u8def20\u865f\n(\u53f3\u660c\u6d88\u9632\u968a\u659c\u5c0d\u9762)",
+        "number": "07-301-2210",
+        "hours": "\u5e73\u65e5 10:00 ~ 23:00\n\u5047\u65e5 09:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.351815,
+          22.567479
+        ]
+      },
+      "properties": {
+        "name": "\u9ad8\u96c4\u6cbf\u6d77\u5e97",
+        "address": "\u9ad8\u96c4\u5e02\u5c0f\u6e2f\u5340\u6cbf\u6d77\u4e00\u8def145\u865f\n(\u5c0f\u6e2f\u6377\u904b\u7ad9\u524d)",
+        "number": "07-802-6246",
+        "hours": "\u4e00~\u56db 09:00 ~ 23:00\n\u4e94~\u65e5 09:00 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.30279,
+          22.676197
+        ]
+      },
+      "properties": {
+        "name": "\u9ad8\u96c4\u5d07\u5fb7\u5e97",
+        "address": "\u9ad8\u96c4\u5e02\u5de6\u71df\u5340\u5d07\u5fb7\u8def311\u865f",
+        "number": "07-341-5698",
+        "hours": "\u6bcf\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.308587,
+          22.660588
+        ]
+      },
+      "properties": {
+        "name": "\u9ad8\u96c4\u81ea\u7531\u5e97",
+        "address": "\u9ad8\u96c4\u5e02\u5de6\u71df\u5340\u81ea\u7531\u4e8c\u8def173\u865f",
+        "number": "07-556-5876",
+        "hours": "\u6bcf\u65e5 08:00 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.295667,
+          22.793947
+        ]
+      },
+      "properties": {
+        "name": "\u9ad8\u96c4\u5ca1\u5c71\u5e97",
+        "address": "\u9ad8\u96c4\u5e02\u5ca1\u5c71\u5340\u5ca1\u5c71\u8def271\u865f1-3\u6a13\n(\u6587\u8ce2\u83dc\u5e02\u5834\u65c1)",
+        "number": "07-622-4251",
+        "hours": "\u6bcf\u65e5 08:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.356917,
+          22.624449
+        ]
+      },
+      "properties": {
+        "name": "\u9cf3\u5c71\u4e2d\u5c71\u5e97",
+        "address": "\u9ad8\u96c4\u5e02\u9cf3\u5c71\u5340\u4e2d\u5c71\u8def215\u865f\n(\u9cf3\u51cc\u5ee3\u5834\u524d)",
+        "number": "07-746-6109",
+        "hours": "\u5e73\u65e5 10:00 ~ 23:00\n\u5047\u65e5 09:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.324267,
+          22.590035
+        ]
+      },
+      "properties": {
+        "name": "\u9cf3\u5c71\u4e94\u7532\u4e00\u5e97",
+        "address": "\u9ad8\u96c4\u5e02\u9cf3\u5c71\u5340\u4e94\u7532\u4e09\u8def211\u865f\n&\u4e94\u798f\u4e8c\u8def1\u865f\n(\u798f\u8aa0\u9ad8\u4e2d\u5c0d\u9762)",
+        "number": "07-822-2767",
+        "hours": "\u4e00~\u56db 08:00 ~ 23:00\n\u4e94~\u65e5 08:00 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.350884,
+          22.640151
+        ]
+      },
+      "properties": {
+        "name": "\u9cf3\u5c71\u9752\u5e74\u5e97",
+        "address": "\u9ad8\u96c4\u5e02\u9cf3\u5c71\u5340\u9752\u5e74\u8def\u4e8c\u6bb5313\u865f",
+        "number": "07-767-6228",
+        "hours": "\u6bcf\u65e5 10:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.490018,
+          22.683576
+        ]
+      },
+      "properties": {
+        "name": "\u5c4f\u6771\u81ea\u7531\u5e97",
+        "address": "\u5c4f\u6771\u7e23\u5c4f\u6771\u5e02\u81ea\u7531\u8def496\u865f",
+        "number": "08-733-3568",
+        "hours": "\u6bcf\u65e5 09:00 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.487065,
+          22.670664
+        ]
+      },
+      "properties": {
+        "name": "\u5c4f\u6771\u9022\u7532\u5e97",
+        "address": "\u5c4f\u6771\u7e23\u5c4f\u6771\u5e02\u9022\u7532\u8def72\u865f1-3\u6a13\n(\u706b\u8eca\u7ad9\u524d)",
+        "number": "08-732-2724",
+        "hours": "\u6bcf\u65e5 09:00 ~ 23:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.536103,
+          22.550007
+        ]
+      },
+      "properties": {
+        "name": "\u5c4f\u6771\u6f6e\u5dde\u5e97",
+        "address": "\u5c4f\u6771\u7e23\u6f6e\u5dde\u93ae\u4fe1\u7fa9\u8def111\u865f",
+        "number": "08-788-1230",
+        "hours": "\u6bcf\u65e5 10:00 ~ 21:30"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.147778,
+          22.753089
+        ]
+      },
+      "properties": {
+        "name": "\u53f0\u6771\u65b0\u751f\u5e97",
+        "address": "\u53f0\u6771\u7e23\u53f0\u6771\u5e02\u65b0\u751f\u8def158\u865f",
+        "number": "08-932-8031",
+        "hours": "\u6bcf\u65e5 08:00 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.610586,
+          23.979415
+        ]
+      },
+      "properties": {
+        "name": "\u82b1\u84ee\u4e2d\u6b63\u5e97",
+        "address": "\u82b1\u84ee\u7e23\u82b1\u84ee\u5e02\u4e2d\u6b63\u8def637-1\u865f\n(\u82b1\u84ee\u7f72\u7acb\u91ab\u9662)",
+        "number": "03-833-4519",
+        "hours": "\u6bcf\u65e5 07:00 ~ 24:00"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.587856,
+          23.973964
+        ]
+      },
+      "properties": {
+        "name": "\u82b1\u84ee\u5409\u5b89\u5e97",
+        "address": "\u82b1\u84ee\u7e23\u5409\u5b89\u9109\u4e2d\u83ef\u8def\u4e8c\u6bb51\u865f",
+        "number": "03-852-0098",
+        "hours": "\u6bcf\u65e5 10:00 ~ 23:00"
+      }
+    }
+  ]
+}
