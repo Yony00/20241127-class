@@ -19,9 +19,9 @@ geojson_urls = [
 
 geo_dfs = []
 restaurant_names = {  # 地圖上的餐廳名稱映射
-    "SB10": "麥當勞",
+    "SB10": "Subway",
     "KK10": "肯德基",
-    "MM10": "Subway"
+    "MM10": "麥當勞"
 }
 
 # 下載和讀取每個 GeoJSON 檔案
