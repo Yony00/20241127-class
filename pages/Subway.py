@@ -5,7 +5,7 @@ import requests
 from streamlit_folium import st_folium
 
 # 設定頁面標題
-st.title("Fast Food Restaurants Map")
+st.title("Fast Food Restaurants Map with Custom Markers")
 
 # 下載 GitHub 上的 GeoJSON 檔案
 geojson_url = "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/output.geojson"
@@ -24,8 +24,17 @@ if response.status_code == 200:
     first_location = gdf.geometry.iloc[0].coords[0]
     m = folium.Map(location=[first_location[1], first_location[0]], zoom_start=12)
 
-    # 將 GeoJSON 資料加到地圖上
-    folium.GeoJson(gdf).add_to(m)
+    # 將餐廳位置加入地圖，使用自定義圖標
+    for idx, row in gdf.iterrows():
+        lat, lon = row.geometry.y, row.geometry.x
+        # 使用自定義圖標
+        icon_url = "https://cdn-icons-png.flaticon.com/512/1046/1046784.png"  # 替換為您想使用的圖標 URL
+        custom_icon = folium.CustomIcon(icon_url, icon_size=(30, 30))  # 設定圖標大小
+        folium.Marker(
+            location=[lat, lon],
+            popup=f"{row['name']}",  # 替換為您的資料欄位
+            icon=custom_icon
+        ).add_to(m)
 
     # 顯示地圖
     st_folium(m, width=700)
