@@ -36,7 +36,7 @@ if geo_dfs:
 
     # 自定義每個來源的圖標
     icons = [
-        "🍟",  # 第一個來源的圖標
+        "https://cdn-icons-png.flaticon.com/512/1046/1046784.png",  # 第一個來源的圖標
         "https://cdn-icons-png.flaticon.com/512/1046/1046846.png",  # 第二個來源的圖標
         "https://cdn-icons-png.flaticon.com/512/1046/1046825.png"   # 第三個來源的圖標
     ]
