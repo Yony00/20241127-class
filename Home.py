@@ -56,8 +56,6 @@ if geo_dfs:
         <strong>電話:</strong> {row['number'] if 'number' in row else 'Not Available'}<br>
         <strong>地址:</strong> {row['address'] if 'address' in row else 'Not Available'}<br>
         <strong>營業時間:</strong> {row['hours'] if 'hours' in row else 'Not Available'}<br>
-        <strong>經度:</strong> {row['longitude'] if 'longitude' in row else 'Not Available'}<br>
-        <strong>緯度:</strong> {row['latitude'] if 'latitude' in row else 'Not Available'}<br>
 
         """
 
@@ -73,7 +71,7 @@ if geo_dfs:
     # 顯示合併後的餐廳列表
     if 'name' in combined_gdf.columns:
         st.write("Combined Restaurant Locations:")
-        st.write(combined_gdf[['name', 'number', 'address','hours','longitude','latitude']])
+        st.write(combined_gdf[['name', 'number', 'address','hours']])
     else:
         st.write("Column 'name' not found in the combined GeoJSON data.")
 else:
