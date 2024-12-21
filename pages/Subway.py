@@ -1,49 +1,67 @@
 import streamlit as st
-from streamlit_folium import st_folium
+import pandas as pd
+import numpy as np
 import folium
+import geopy.distance
 import geopandas as gpd
-import requests
-from shapely.geometry import Point
+from folium.plugins import MarkerCluster
+from streamlit_folium import st_folium
 
-st.title("Interactive Map - Click to Get Coordinates")
+st.set_page_config(layout="wide")
+st.title("餐廳搜尋 - 以地圖點選搜尋餐廳")
+
+# 假設餐廳的 GeoJSON 檔案 URL
+restaurant_url = "your_restaurant_geojson_file_url_here"
+
+# 讀取餐廳 GeoJSON 檔案
+restaurants = gpd.read_file(restaurant_url)
 
 # 初始化地圖
-m = folium.Map(location=[23.6, 121], zoom_start=8)
+m = folium.Map(location=[23.15, 120.3], zoom_start=12)
 
-# 在地圖上點擊時，會更新並顯示座標
-clicked_point = st_folium(m, key="folium_map")
+# 設定標註群組
+marker_cluster = MarkerCluster().add_to(m)
 
-# 提取點擊座標
-if clicked_point and clicked_point.get("last_clicked"):
-    lat = clicked_point["last_clicked"]["lat"]
-    lon = clicked_point["last_clicked"]["lng"]
-    st.success(f"You clicked at Latitude: {lat}, Longitude: {lon}")
-    
-    # 計算最近的速食餐廳
-    geojson_url = "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/SB10.geojson"
+# 在地圖上標註所有餐廳
+for _, row in restaurants.iterrows():
+    folium.Marker(
+        location=[row['lat'], row['lon']],
+        popup=row['name'],  # 假設有餐廳名稱
+    ).add_to(marker_cluster)
 
-    # 使用 requests 下載 GeoJSON 檔案
-    response = requests.get(geojson_url)
+# 監聽地圖點選
+clicked_location = st_folium(m, width=700, height=500)
 
-    if response.status_code == 200:
-        # 將下載的資料轉換為 GeoJSON 格式
-        gdf = gpd.read_file(response.text)
+# 如果有點選位置，則開始進行搜尋
+if clicked_location:
+    click_lat = clicked_location['lat']
+    click_lon = clicked_location['lon']
+    st.write(f"您選擇的位置：經度 {click_lon}, 緯度 {click_lat}")
 
-        # 將點擊的座標轉換為 Point 物件
-        clicked_point_geom = Point(lon, lat)
+    # 計算並顯示3公里範圍內的餐廳
+    nearby_restaurants = []
+    for _, row in restaurants.iterrows():
+        restaurant_coords = (row['lat'], row['lon'])
+        clicked_coords = (click_lat, click_lon)
+        distance = geopy.distance.distance(restaurant_coords, clicked_coords).km
+        if distance <= 3:
+            nearby_restaurants.append(row)
 
-        # 計算每個速食餐廳到點擊位置的距離
-        gdf['distance'] = gdf.geometry.distance(clicked_point_geom)
+    # 顯示範圍內的餐廳
+    if nearby_restaurants:
+        st.write(f"範圍內有 {len(nearby_restaurants)} 家餐廳：")
+        for restaurant in nearby_restaurants:
+            st.write(f"- {restaurant['name']}, 距離: {distance:.2f} 公里")
 
-        # 找到最近的餐廳
-        nearest_restaurant = gdf.loc[gdf['distance'].idxmin()]
+        # 在地圖上標註範圍內的餐廳
+        for restaurant in nearby_restaurants:
+            folium.Marker(
+                location=[restaurant['lat'], restaurant['lon']],
+                popup=restaurant['name'],
+                icon=folium.Icon(color="green"),
+            ).add_to(m)
 
-        # 顯示最近餐廳的資訊
-        st.write(f"Nearest Fast Food Restaurant:")
-        st.write(f"Name: {nearest_restaurant['name']}")
-        st.write(f"Address: {nearest_restaurant['address']}")
-        st.write(f"Distance: {nearest_restaurant['distance']:.2f} meters")
+        # 顯示更新後的地圖
+        st_folium(m, width=700, height=500)
     else:
-        st.error("Failed to download GeoJSON file from GitHub.")
-else:
-    st.info("Click on the map to get the coordinates.")
+        st.write("範圍內沒有餐廳")
