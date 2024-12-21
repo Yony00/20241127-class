@@ -21,7 +21,7 @@ if clicked_point and clicked_point.get("last_clicked"):
     st.success(f"You clicked at Latitude: {lat}, Longitude: {lon}")
     
     # 計算最近的速食餐廳
-    geojson_url = "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/output.geojson"
+    geojson_url = "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/SB.geojson"
 
     # 使用 requests 下載 GeoJSON 檔案
     response = requests.get(geojson_url)
