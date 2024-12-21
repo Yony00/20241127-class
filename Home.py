@@ -10,22 +10,17 @@ st.set_page_config(layout="wide")
 # 設定頁面標題
 st.title("發現鄰近美味！速食餐廳互動式地圖")
 
-# 定義 GeoJSON 檔案的 URL
-geojson_urls = [
-    ("SB10", "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/SB10.geojson"),  # 麥當勞
-    ("KK10", "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/KK10.geojson"),  # 肯德基
-    ("MM10", "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/MM10.geojson")   # Subway
-]
-
-geo_dfs = []
-restaurant_names = {  # 地圖上的餐廳名稱映射
-    "SB10": "麥當勞",
-    "KK10": "肯德基",
-    "MM10": "Subway"
+# 定義 GeoJSON 檔案的 URL 和名稱
+geojson_urls = {
+    "麥當勞": "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/SB10.geojson",
+    "肯德基": "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/KK10.geojson",
+    "Subway": "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/MM10.geojson"
 }
 
+geo_dfs = []
+
 # 下載和讀取每個 GeoJSON 檔案
-for name, url in geojson_urls:
+for name, url in geojson_urls.items():
     response = requests.get(url)
     if response.status_code == 200:
         geo_dfs.append((name, gpd.read_file(response.text)))
@@ -36,8 +31,7 @@ for name, url in geojson_urls:
 restaurant_choice = st.selectbox("選擇速食餐廳", ["麥當勞", "肯德基", "Subway"])
 
 # 根據選擇的餐廳過濾對應的 GeoDataFrame
-selected_restaurant_key = next(key for key, value in restaurant_names.items() if value == restaurant_choice)
-selected_gdf = next(gdf for name, gdf in geo_dfs if name == selected_restaurant_key)
+selected_gdf = next(gdf for name, gdf in geo_dfs if name == restaurant_choice)
 
 # 顯示選擇的餐廳列表
 if 'name' in selected_gdf.columns:
@@ -49,7 +43,7 @@ if 'name' in selected_gdf.columns:
 
     # 自定義圖標 URL
     icons = {
-        "麥當勞": "https://cdn-icons-png.flaticon.com/512/1046/1046846.png",
+        "麥當勞": "https://cdn-icons-png.flaticon.com/512/1046/1046784.png",
         "肯德基": "https://cdn-icons-png.flaticon.com/512/1046/1046846.png",
         "Subway": "https://cdn-icons-png.flaticon.com/512/1046/1046825.png"
     }
@@ -77,6 +71,6 @@ if 'name' in selected_gdf.columns:
         ).add_to(m)
 
     # 顯示放大後的地圖
-    st_folium(m, width=1000, height=800)  # 增加 height 來放大地圖
+    st_folium(m, width=900, height=600)  # 增加 height 來放大地圖
 else:
     st.write("No restaurant data available.")
