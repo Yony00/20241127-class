@@ -1,58 +1,52 @@
 import streamlit as st
-from streamlit_folium import st_folium
 import folium
 import geopandas as gpd
 import requests
-from shapely.geometry import Point
+from streamlit_folium import st_folium
 
-st.title("Interactive Map - Click to Get Coordinates")
+# 設定頁面標題
+st.title("Fast Food Restaurants Map with Custom Markers")
 
-# 初始化地圖
-m = folium.Map(location=[23.6, 121], zoom_start=8)
+# 下載 GitHub 上的 GeoJSON 檔案
+geojson_url = "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/output.geojson"
 
-# 在地圖上點擊時，會更新並顯示座標
-clicked_point = st_folium(m, key="folium_map")
+# 使用 requests 下載 GeoJSON 檔案
+response = requests.get(geojson_url)
 
-# 提取點擊座標
-if clicked_point and clicked_point.get("last_clicked"):
-    lat = clicked_point["last_clicked"]["lat"]
-    lon = clicked_point["last_clicked"]["lng"]
-    st.success(f"You clicked at Latitude: {lat}, Longitude: {lon}")
-    
-    # 計算最近的速食餐廳
-    geojson_url = "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/output.geojson"
+if response.status_code == 200:
+    # 將下載的資料轉換為 GeoJSON 格式
+    gdf = gpd.read_file(response.text)
 
-    # 使用 requests 下載 GeoJSON 檔案
-    response = requests.get(geojson_url)
+    # 檢查 GeoDataFrame 中的欄位名稱
+    st.write("Columns in GeoDataFrame:", gdf.columns)
 
-    if response.status_code == 200:
-        # 將下載的資料轉換為 GeoJSON 格式
-        gdf = gpd.read_file(response.text)
+    # 初始化地圖，將地圖中心設置為第一個餐廳的位置
+    first_location = gdf.geometry.iloc[0].coords[0]
+    m = folium.Map(location=[first_location[1], first_location[0]], zoom_start=12)
 
-        # 顯示 GeoDataFrame 欄位，確保使用正確的欄位名稱
-        st.write("Columns in GeoDataFrame:", gdf.columns)  # 顯示欄位
+    # 將餐廳位置加入地圖，使用自定義圖標
+    for idx, row in gdf.iterrows():
+        lat, lon = row.geometry.y, row.geometry.x
+        # 使用自定義圖標
+        icon_url = "https://cdn-icons-png.flaticon.com/512/1046/1046784.png"  # 替換為您想使用的圖標 URL
+        custom_icon = folium.CustomIcon(icon_url, icon_size=(30, 30))  # 設定圖標大小
+        folium.Marker(
+            location=[lat, lon],
+            popup=f"{row['name']}",  # 替換為您的資料欄位
+            icon=custom_icon
+        ).add_to(m)
 
-        # 將點擊的座標轉換為 Point 物件
-        clicked_point_geom = Point(lon, lat)
+    # 顯示地圖
+    st_folium(m, width=700)
 
-        # 計算每個速食餐廳到點擊位置的距離
-        gdf['distance'] = gdf.geometry.distance(clicked_point_geom)
-
-        # 找到最近的餐廳
-        nearest_restaurant = gdf.loc[gdf['distance'].idxmin()]
-
-        # 檢查最近餐廳是否包含經緯度
-        if 'geometry' in nearest_restaurant:
-            nearest_lat = nearest_restaurant.geometry.y
-            nearest_lon = nearest_restaurant.geometry.x
-            st.write(f"Nearest Fast Food Restaurant:")
-            st.write(f"Name: {nearest_restaurant['name']}")
-            st.write(f"Latitude: {nearest_lat}")
-            st.write(f"Longitude: {nearest_lon}")
-            st.write(f"Distance: {nearest_restaurant['distance']:.2f} meters")
-        else:
-            st.error("The nearest restaurant's location data is missing.")
+    # 顯示餐廳列表（根據實際欄位名稱）
+    if 'name' in gdf.columns and 'address' in gdf.columns:
+        st.write("Restaurant Locations:")
+        st.write(gdf[['name', 'address']])
     else:
-        st.error("Failed to download GeoJSON file from GitHub.")
+        st.write("Columns 'name' and 'address' not found in the GeoJSON data.")
 else:
-    st.info("Click on the map to get the coordinates.")
+    st.error("Failed to download GeoJSON file from GitHub.")
+
+
+
