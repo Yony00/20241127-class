@@ -55,6 +55,8 @@ if geo_dfs:
         <strong>Name:</strong> {row['name'] if 'name' in row else 'Unknown'}<br>
         <strong>Number:</strong> {row['number'] if 'number' in row else 'Not Available'}<br>
         <strong>Address:</strong> {row['address'] if 'address' in row else 'Not Available'}<br>
+        <strong>Address:</strong> {row['hours'] if 'hours' in row else 'Not Available'}<br>
+
         """
 
         folium.Marker(
@@ -69,7 +71,7 @@ if geo_dfs:
     # 顯示合併後的餐廳列表
     if 'name' in combined_gdf.columns:
         st.write("Combined Restaurant Locations:")
-        st.write(combined_gdf[['name', 'number', 'address']])
+        st.write(combined_gdf[['name', 'number', 'address','hours']])
     else:
         st.write("Column 'name' not found in the combined GeoJSON data.")
 else:
