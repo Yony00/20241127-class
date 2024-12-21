@@ -31,18 +31,25 @@ for url in geojson_urls:
 if geo_dfs:
     combined_gdf = gpd.GeoDataFrame(pd.concat(geo_dfs, ignore_index=True))  # 使用 pd.concat 合併 GeoDataFrame
 
+    # 顯示可選擇的速食餐廳名稱列表
+    restaurant_options = combined_gdf['name'].unique()
+    selected_restaurant = st.selectbox("選擇速食餐廳:", restaurant_options)
+
+    # 根據使用者選擇的餐廳篩選資料
+    selected_gdf = combined_gdf[combined_gdf['name'] == selected_restaurant]
+
     # 初始化地圖，將地圖中心設置為指定的座標
     m = folium.Map(location=[23.6, 121], zoom_start=8)  # 地圖尺度設置為 (23.6, 121)
 
     # 自定義每個來源的圖標
     icons = [
-        "https://cdn-icons-png.flaticon.com/512/1046/1046784.png",  # 第一個來源的圖標
+        "https://cdn-icons-png.flaticon.com/512/1046/1046846.png",  # 第一個來源的圖標
         "https://cdn-icons-png.flaticon.com/512/1046/1046846.png",  # 第二個來源的圖標
         "https://cdn-icons-png.flaticon.com/512/1046/1046825.png"   # 第三個來源的圖標
     ]
 
     # 根據不同來源選擇圖標
-    for idx, row in combined_gdf.iterrows():
+    for idx, row in selected_gdf.iterrows():
         lat, lon = row.geometry.y, row.geometry.x
         source_index = row.get("source_index", idx % len(geojson_urls))  # 用來區分資料來源
         icon_url = icons[source_index % len(icons)]  # 根據來源選擇圖標
@@ -63,11 +70,7 @@ if geo_dfs:
         ).add_to(m)
 
     # 顯示放大後的地圖
-    st_folium(m, width=900, height=600)  # 增加 height 來放大地圖
+    st_folium(m, width=1000, height=800)  # 增加 height 來放大地圖
 
-    # 顯示合併後的餐廳列表
-    if 'name' in combined_gdf.columns:
-        st.write("Combined Restaurant Locations:")
-        st.write(combined_gdf[['name', 'number', 'address', 'hours']])
 else:
     st.error("No valid GeoJSON data could be loaded.")
