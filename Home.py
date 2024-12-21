@@ -31,44 +31,45 @@ for url in geojson_urls:
 if geo_dfs:
     combined_gdf = gpd.GeoDataFrame(pd.concat(geo_dfs, ignore_index=True))  # 使用 pd.concat 合併 GeoDataFrame
 
-    # 初始化地圖，將地圖中心設置為指定的座標
-    m = folium.Map(location=[23.6, 121], zoom_start=8)  # 地圖尺度設置為 (23.6, 121)
+    # 顯示速食餐廳選單
+    restaurant_names = combined_gdf['name'].unique()
+    selected_restaurant = st.selectbox("選擇一間速食餐廳", restaurant_names)
 
-    # 自定義每個來源的圖標
-    icons = [
-        "https://cdn-icons-png.flaticon.com/512/1046/1046846.png",  # 第一個來源的圖標
-        "https://cdn-icons-png.flaticon.com/512/1046/1046846.png",  # 第二個來源的圖標
-        "https://cdn-icons-png.flaticon.com/512/1046/1046825.png"   # 第三個來源的圖標
-    ]
+    # 根據選擇的速食餐廳過濾資料
+    selected_data = combined_gdf[combined_gdf['name'] == selected_restaurant]
 
-    # 根據不同來源選擇圖標
-    for idx, row in combined_gdf.iterrows():
-        lat, lon = row.geometry.y, row.geometry.x
-        source_index = row.get("source_index", idx % len(geojson_urls))  # 用來區分資料來源
-        icon_url = icons[source_index % len(icons)]  # 根據來源選擇圖標
-        custom_icon = folium.CustomIcon(icon_url, icon_size=(30, 30))
+    # 初始化地圖，將地圖中心設置為選擇餐廳的位置
+    lat, lon = selected_data.geometry.y.iloc[0], selected_data.geometry.x.iloc[0]
+    m = folium.Map(location=[lat, lon], zoom_start=15)
 
-        # 使用 HTML 格式來顯示 popup 內容
-        popup_content = f"""
-        <strong>分店:</strong> {row['name'] if 'name' in row else 'Unknown'}<br>
-        <strong>電話:</strong> {row['number'] if 'number' in row else 'Not Available'}<br>
-        <strong>地址:</strong> {row['address'] if 'address' in row else 'Not Available'}<br>
-        <strong>營業時間:</strong> {row['hours'] if 'hours' in row else 'Not Available'}<br>
-        """
+    # 自定義圖標
+    icon_url = "https://cdn-icons-png.flaticon.com/512/3027/3027137.png"  # 使用薯條的圖標
+    custom_icon = folium.CustomIcon(icon_url, icon_size=(30, 30))
 
-        folium.Marker(
-            location=[lat, lon],
-            popup=folium.Popup(popup_content, max_width=300),  # 使用自定義的 popup 內容
-            icon=custom_icon
-        ).add_to(m)
+    # 使用 HTML 格式來顯示 popup 內容
+    row = selected_data.iloc[0]
+    popup_content = f"""
+    <strong>分店:</strong> {row['name'] if 'name' in row else 'Unknown'}<br>
+    <strong>電話:</strong> {row['number'] if 'number' in row else 'Not Available'}<br>
+    <strong>地址:</strong> {row['address'] if 'address' in row else 'Not Available'}<br>
+    <strong>營業時間:</strong> {row['hours'] if 'hours' in row else 'Not Available'}<br>
+    """
+
+    # 在地圖上添加選擇的速食餐廳標記
+    folium.Marker(
+        location=[lat, lon],
+        popup=folium.Popup(popup_content, max_width=300),  # 使用自定義的 popup 內容
+        icon=custom_icon
+    ).add_to(m)
+
+    # 顯示選擇的速食餐廳資訊
+    st.write("選擇的速食餐廳資訊:")
+    st.write(f"名稱: {row['name']}")
+    st.write(f"電話: {row['number'] if 'number' in row else 'Not Available'}")
+    st.write(f"地址: {row['address'] if 'address' in row else 'Not Available'}")
+    st.write(f"營業時間: {row['hours'] if 'hours' in row else 'Not Available'}")
 
     # 顯示放大後的地圖
     st_folium(m, width=1000, height=800)  # 增加 height 來放大地圖
-    
-
-    # 顯示合併後的餐廳列表
-    if 'name' in combined_gdf.columns:
-        st.write("Combined Restaurant Locations:")
-        st.write(combined_gdf[['name', 'number', 'address', 'hours']])
 else:
     st.error("No valid GeoJSON data could be loaded.")
