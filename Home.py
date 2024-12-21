@@ -36,7 +36,7 @@ if geo_dfs:
 
     # 自定義每個來源的圖標
     icons = [
-        "https://cdn-icons-png.flaticon.com/512/1046/1046784.png",  # 第一個來源的圖標
+        "C:\Users\cheng\OneDrive\桌面",  # 第一個來源的圖標
         "https://cdn-icons-png.flaticon.com/512/1046/1046846.png",  # 第二個來源的圖標
         "https://cdn-icons-png.flaticon.com/512/1046/1046825.png"   # 第三個來源的圖標
     ]
@@ -63,7 +63,7 @@ if geo_dfs:
         ).add_to(m)
 
     # 顯示放大後的地圖
-    st_folium(m, width=none, height=800)  # 增加 height 來放大地圖
+    st_folium(m, width=1000, height=800)  # 增加 height 來放大地圖
     
 
     # 顯示合併後的餐廳列表
