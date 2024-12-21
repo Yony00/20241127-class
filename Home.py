@@ -28,6 +28,9 @@ for name, url in geojson_urls.items():
 # 顯示速食餐廳選單
 restaurant_choice = st.selectbox("選擇速食餐廳", ["麥當勞", "肯德基", "Subway"])
 
+# 使用 st.empty() 控制顯示
+map_display = st.empty()
+
 # 根據選擇過濾對應的 GeoDataFrame
 selected_gdf = next(gdf for name, gdf in geo_dfs if name == restaurant_choice)
 
@@ -68,43 +71,7 @@ if 'name' in selected_gdf.columns:
             icon=custom_icon
         ).add_to(m)
 
-    # 顯示放大後的地圖
-    st_folium(m, width=900, height=600)
-
+    # 顯示選擇餐廳的地圖
+    map_display.write(st_folium(m, width=900, height=600))  # 顯示所選餐廳的地圖
 else:
     st.write("No restaurant data available.")
-
-# 下面是展示所有三個餐廳分開地圖的部分
-
-st.write("### 麥當勞 地圖展示")
-m_mcdonalds = folium.Map(location=[23.6, 121], zoom_start=8)
-for idx, row in geo_dfs[0][1].iterrows():
-    lat, lon = row.geometry.y, row.geometry.x
-    folium.Marker(
-        location=[lat, lon],
-        popup=row['name'],
-        icon=folium.CustomIcon("https://cdn-icons-png.flaticon.com/512/1046/1046784.png", icon_size=(30, 30))
-    ).add_to(m_mcdonalds)
-st_folium(m_mcdonalds, width=900, height=600)
-
-st.write("### 肯德基 地圖展示")
-m_kfc = folium.Map(location=[23.6, 121], zoom_start=8)
-for idx, row in geo_dfs[1][1].iterrows():
-    lat, lon = row.geometry.y, row.geometry.x
-    folium.Marker(
-        location=[lat, lon],
-        popup=row['name'],
-        icon=folium.CustomIcon("https://cdn-icons-png.flaticon.com/512/1046/1046846.png", icon_size=(30, 30))
-    ).add_to(m_kfc)
-st_folium(m_kfc, width=900, height=600)
-
-st.write("### Subway 地圖展示")
-m_subway = folium.Map(location=[23.6, 121], zoom_start=8)
-for idx, row in geo_dfs[2][1].iterrows():
-    lat, lon = row.geometry.y, row.geometry.x
-    folium.Marker(
-        location=[lat, lon],
-        popup=row['name'],
-        icon=folium.CustomIcon("https://cdn-icons-png.flaticon.com/512/1046/1046825.png", icon_size=(30, 30))
-    ).add_to(m_subway)
-st_folium(m_subway, width=900, height=600)
