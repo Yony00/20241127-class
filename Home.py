@@ -52,10 +52,10 @@ if geo_dfs:
 
         # 使用 HTML 格式來顯示 popup 內容
         popup_content = f"""
-        <strong>Name:</strong> {row['name'] if 'name' in row else 'Unknown'}<br>
-        <strong>Number:</strong> {row['number'] if 'number' in row else 'Not Available'}<br>
-        <strong>Address:</strong> {row['address'] if 'address' in row else 'Not Available'}<br>
-        <strong>Address:</strong> {row['hours'] if 'hours' in row else 'Not Available'}<br>
+        <strong>分店:</strong> {row['name'] if 'name' in row else 'Unknown'}<br>
+        <strong>電話:</strong> {row['number'] if 'number' in row else 'Not Available'}<br>
+        <strong>地址:</strong> {row['address'] if 'address' in row else 'Not Available'}<br>
+        <strong>營業時間:</strong> {row['hours'] if 'hours' in row else 'Not Available'}<br>
 
         """
 
