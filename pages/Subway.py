@@ -11,7 +11,7 @@ st.set_page_config(layout="wide")
 st.title("餐廳搜尋 - 以地圖點選搜尋餐廳")
 
 # 假設餐廳的 GeoJSON 檔案 URL
-restaurant_url = "your_restaurant_geojson_file_url_here"
+restaurant_url = "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/SB10.geojson"
 
 # 讀取餐廳 GeoJSON 檔案
 restaurants = gpd.read_file(restaurant_url)
