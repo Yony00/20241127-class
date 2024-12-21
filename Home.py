@@ -10,9 +10,9 @@ st.title("Fast Food Restaurants Map with Multiple GeoJSON Sources")
 
 # 定義 GeoJSON 檔案的 URL
 geojson_urls = [
-    "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/SB.geojson",  # 第一間速食餐廳
-    "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/KK.geojson",  # 第二間速食餐廳
-    "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/MM5.geojson"   # 第三間速食餐廳
+    "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/SB10.geojson",  # 第一間速食餐廳
+    "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/KK10.geojson",  # 第二間速食餐廳
+    "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/MM10.geojson"   # 第三間速食餐廳
 ]
 
 geo_dfs = []
