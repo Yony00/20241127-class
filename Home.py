@@ -11,49 +11,39 @@ st.set_page_config(layout="wide")
 st.title("發現鄰近美味！速食餐廳互動式地圖")
 
 # 定義 GeoJSON 檔案的 URL
-geojson_urls = [
-    "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/SB10.geojson",  # 第一間速食餐廳
-    "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/KK10.geojson",  # 第二間速食餐廳
-    "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/MM10.geojson"   # 第三間速食餐廳
-]
+geojson_urls = {
+    "麥當勞": "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/SB10.geojson",  # 麥當勞
+    "肯德基": "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/KK10.geojson",  # 肯德基
+    "Subway": "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/MM10.geojson"   # Subway
+}
 
 geo_dfs = []
 
-# 下載和讀取每個 GeoJSON 檔案
-for url in geojson_urls:
-    response = requests.get(url)
-    if response.status_code == 200:
-        geo_dfs.append(gpd.read_file(response.text))
-    else:
-        st.error(f"Failed to download GeoJSON file from: {url}")
+# 讓使用者選擇速食餐廳
+restaurant_choice = st.selectbox("選擇速食餐廳", list(geojson_urls.keys()))
+
+# 下載和讀取選擇的速食餐廳 GeoJSON 檔案
+selected_url = geojson_urls[restaurant_choice]
+response = requests.get(selected_url)
+if response.status_code == 200:
+    geo_dfs.append(gpd.read_file(response.text))
+else:
+    st.error(f"Failed to download GeoJSON file from: {selected_url}")
 
 # 合併所有 GeoDataFrame
 if geo_dfs:
     combined_gdf = gpd.GeoDataFrame(pd.concat(geo_dfs, ignore_index=True))  # 使用 pd.concat 合併 GeoDataFrame
 
-    # 顯示可選擇的速食餐廳名稱列表
-    restaurant_options = combined_gdf['name'].unique()
-    selected_restaurant = st.selectbox("選擇速食餐廳:", restaurant_options)
-
-    # 根據使用者選擇的餐廳篩選資料
-    selected_gdf = combined_gdf[combined_gdf['name'] == selected_restaurant]
-
     # 初始化地圖，將地圖中心設置為指定的座標
     m = folium.Map(location=[23.6, 121], zoom_start=8)  # 地圖尺度設置為 (23.6, 121)
 
-    # 自定義每個來源的圖標
-    icons = [
-        "https://cdn-icons-png.flaticon.com/512/1046/1046846.png",  # 第一個來源的圖標
-        "https://cdn-icons-png.flaticon.com/512/1046/1046846.png",  # 第二個來源的圖標
-        "https://cdn-icons-png.flaticon.com/512/1046/1046825.png"   # 第三個來源的圖標
-    ]
+    # 自定義圖標
+    icon_url = "https://cdn-icons-png.flaticon.com/512/3027/3027137.png"  # 薯條圖標
+    custom_icon = folium.CustomIcon(icon_url, icon_size=(30, 30))
 
-    # 根據不同來源選擇圖標
-    for idx, row in selected_gdf.iterrows():
+    # 顯示餐廳的分店位置
+    for idx, row in combined_gdf.iterrows():
         lat, lon = row.geometry.y, row.geometry.x
-        source_index = row.get("source_index", idx % len(geojson_urls))  # 用來區分資料來源
-        icon_url = icons[source_index % len(icons)]  # 根據來源選擇圖標
-        custom_icon = folium.CustomIcon(icon_url, icon_size=(30, 30))
 
         # 使用 HTML 格式來顯示 popup 內容
         popup_content = f"""
@@ -72,5 +62,9 @@ if geo_dfs:
     # 顯示放大後的地圖
     st_folium(m, width=1000, height=800)  # 增加 height 來放大地圖
 
+    # 顯示餐廳列表
+    if 'name' in combined_gdf.columns:
+        st.write(f"{restaurant_choice} 分店位置:")
+        st.write(combined_gdf[['name', 'number', 'address', 'hours']])
 else:
     st.error("No valid GeoJSON data could be loaded.")
