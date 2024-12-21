@@ -5,6 +5,8 @@ import requests
 import pandas as pd  # 加入 pandas 模組
 from streamlit_folium import st_folium
 
+st.set_page_config(layout="wide")
+
 # 設定頁面標題
 st.title("發現鄰近美味！速食餐廳互動式地圖")
 
