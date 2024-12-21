@@ -31,12 +31,8 @@ for url in geojson_urls:
 if geo_dfs:
     combined_gdf = gpd.GeoDataFrame(pd.concat(geo_dfs, ignore_index=True))  # 使用 pd.concat 合併 GeoDataFrame
 
-    # 檢查合併後的欄位名稱
-    st.write("Columns in Combined GeoDataFrame:", combined_gdf.columns)
-
-    # 初始化地圖，將地圖中心設置為第一個速食餐廳的位置
-    first_location = combined_gdf.geometry.iloc[0].coords[0]
-    m = folium.Map(location=[first_location[1], first_location[0]], zoom_start=12)
+    # 初始化地圖，將地圖中心設置為指定位置
+    m = folium.Map(location=[23.6, 121], zoom_start=8)  # 設置初始位置與縮放級別
 
     # 自定義每個來源的圖標
     icons = [
@@ -58,7 +54,6 @@ if geo_dfs:
         <strong>電話:</strong> {row['number'] if 'number' in row else 'Not Available'}<br>
         <strong>地址:</strong> {row['address'] if 'address' in row else 'Not Available'}<br>
         <strong>營業時間:</strong> {row['hours'] if 'hours' in row else 'Not Available'}<br>
-
         """
 
         folium.Marker(
@@ -70,11 +65,5 @@ if geo_dfs:
     # 顯示地圖
     st_folium(m, width=700)
 
-    # 顯示合併後的餐廳列表
-    if 'name' in combined_gdf.columns:
-        st.write("Combined Restaurant Locations:")
-        st.write(combined_gdf[['name', 'number', 'address','hours']])
-    else:
-        st.write("Column 'name' not found in the combined GeoJSON data.")
 else:
     st.error("No valid GeoJSON data could be loaded.")
