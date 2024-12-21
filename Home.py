@@ -49,10 +49,17 @@ if geo_dfs:
         source_index = row.get("source_index", idx % len(geojson_urls))  # 用來區分資料來源
         icon_url = icons[source_index % len(icons)]  # 根據來源選擇圖標
         custom_icon = folium.CustomIcon(icon_url, icon_size=(30, 30))
-        
+
+        # 使用 HTML 格式來顯示 popup 內容
+        popup_content = f"""
+        <strong>Name:</strong> {row['name'] if 'name' in row else 'Unknown'}<br>
+        <strong>Number:</strong> {row['number'] if 'number' in row else 'Not Available'}<br>
+        <strong>Address:</strong> {row['address'] if 'address' in row else 'Not Available'}<br>
+        """
+
         folium.Marker(
             location=[lat, lon],
-            popup=f"Name: {row['name'] if 'name' in row else 'Unknown'}",
+            popup=folium.Popup(popup_content, max_width=300),  # 使用自定義的 popup 內容
             icon=custom_icon
         ).add_to(m)
 
@@ -62,7 +69,7 @@ if geo_dfs:
     # 顯示合併後的餐廳列表
     if 'name' in combined_gdf.columns:
         st.write("Combined Restaurant Locations:")
-        st.write(combined_gdf[['name']])
+        st.write(combined_gdf[['name', 'number', 'address']])
     else:
         st.write("Column 'name' not found in the combined GeoJSON data.")
 else:
