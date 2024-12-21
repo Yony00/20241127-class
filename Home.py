@@ -11,7 +11,7 @@ st.title("Fast Food Restaurants Map with Multiple GeoJSON Sources")
 geojson_urls = [
     "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/SB.geojson",  # 第一間速食餐廳
     "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/KK.geojson",  # 第二間速食餐廳
-    "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/restaurant2.geojson"   # 第三間速食餐廳
+    "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/MM5.geojson"   # 第三間速食餐廳
 ]
 
 geo_dfs = []
