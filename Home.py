@@ -2,6 +2,7 @@ import streamlit as st
 import folium
 import geopandas as gpd
 import requests
+import pandas as pd  # 加入 pandas 模組
 from streamlit_folium import st_folium
 
 # 設定頁面標題
