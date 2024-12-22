@@ -4,22 +4,38 @@ import folium
 import geopandas as gpd
 import requests
 
+# 設定頁面標題
 st.title("Interactive Map - Click to Get Coordinates")
 
 # 初始化地圖
 m = folium.Map(location=[23.6, 121], zoom_start=8)
 
-# 在地圖上點擊時，會更新並顯示座標
-clicked_point = st_folium(m, key="folium_map")
+# 顯示互動地圖並處理點擊事件
+clicked_point = st_folium(m, key="folium_map", width=700, height=500)
 
-# 提取點擊座標
+# 記錄點擊座標並添加環域
 if clicked_point and clicked_point.get("last_clicked"):
     lat = clicked_point["last_clicked"]["lat"]
     lon = clicked_point["last_clicked"]["lng"]
     st.success(f"You clicked at Latitude: {lat}, Longitude: {lon}")
+
+    # 在點擊的座標上繪製一個半徑 3 公里的圓
+    m = folium.Map(location=[lat, lon], zoom_start=12)
+    folium.Circle(
+        location=(lat, lon),
+        radius=3000,  # 半徑 3000 公尺
+        color="blue",
+        fill=True,
+        fill_color="blue",
+        fill_opacity=0.2,
+    ).add_to(m)
+
+    # 顯示更新後的地圖
+    st_folium(m, key="updated_map", width=700, height=500)
+
 else:
     st.info("Click on the map to get the coordinates.")
-    
+
 # 設定頁面標題
 st.title("Fast Food Restaurants Map")
 
@@ -48,4 +64,3 @@ if response.status_code == 200:
     st.write(gdf[['name', 'address']])
 else:
     st.error("Failed to download GeoJSON file from GitHub.")
-
