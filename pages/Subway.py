@@ -24,7 +24,7 @@ else:
 st.title("Fast Food Restaurants Map")
 
 # 下載 GitHub 上的 GeoJSON 檔案
-geojson_url = "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/output.geojson"
+geojson_url = "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/SB10.geojson"
 
 # 使用 requests 下載 GeoJSON 檔案
 response = requests.get(geojson_url)
