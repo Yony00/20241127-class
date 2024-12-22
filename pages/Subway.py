@@ -29,26 +29,6 @@ geojson_url = "https://raw.githubusercontent.com/Yony00/20241127-class/refs/head
 # 使用 requests 下載 GeoJSON 檔案
 response = requests.get(geojson_url)
 
-import requests
-import geopandas as gpd
-
-# 替換為您的 GeoJSON 文件的 URL
-url = "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/SB10.geojson"
-
-# 發送請求
-response = requests.get(url)
-
-if response.status_code == 200:
-    print("Successfully downloaded GeoJSON file!")
-    
-    # 將文件內容讀取為 GeoPandas 資料框
-    gdf = gpd.read_file(response.text)
-    
-    # 打印 GeoDataFrame 的頭幾行數據
-    print(gdf.head())
-else:
-    print(f"Failed to download GeoJSON file. Status code: {response.status_code}")
-
 if response.status_code == 200:
     # 將下載的資料轉換為 GeoJSON 格式
     gdf = gpd.read_file(response.text)
