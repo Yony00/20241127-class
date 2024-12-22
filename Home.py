@@ -12,9 +12,9 @@ st.title("發現鄰近美味！速食餐廳互動式地圖")
 
 # 定義 GeoJSON 檔案的 URL
 geojson_urls = [
-    "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/SB10.geojson",  # 麥當勞
-    "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/KK10.geojson",  # 肯德基
-    "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/MM10.geojson"   # Subway
+    "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/SB10.geojson",  # 第一間速食餐廳
+    "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/KK10.geojson",  # 第二間速食餐廳
+    "https://raw.githubusercontent.com/Yony00/20241127-class/refs/heads/main/MM10.geojson"   # 第三間速食餐廳
 ]
 
 geo_dfs = []
@@ -36,9 +36,9 @@ if geo_dfs:
 
     # 自定義每個來源的圖標
     icons = [
-        "https://cdn-icons-png.flaticon.com/512/1046/1046784.png",  # 麥當勞
-        "https://cdn-icons-png.flaticon.com/512/1046/1046846.png",  # 肯德基
-        "https://cdn-icons-png.flaticon.com/512/1046/1046825.png"   # Subway
+        "https://cdn-icons-png.flaticon.com/512/1046/1046784.png",  # 第一個來源的圖標
+        "https://cdn-icons-png.flaticon.com/512/1046/1046846.png",  # 第二個來源的圖標
+        "https://cdn-icons-png.flaticon.com/512/1046/1046825.png"   # 第三個來源的圖標
     ]
 
     # 根據不同來源選擇圖標
